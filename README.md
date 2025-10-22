@@ -2,7 +2,7 @@
 
 ## Description
 
-This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage  shipments in the SAP Business Networks Global Track and Trace (GTT) syste. The agent can create shipments, get delayed shipment details and even tracking details of existing shipment. It uses Document Grounding to read a shipment rate card document and determine the most economically viable shipment carrier based on their rates, source location and destination location while creating a shipment.
+This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage  shipments in the SAP Business Networks Global Track and Trace (GTT) system. The agent can create shipments, get delayed shipment details and even tracking details of existing shipment. It uses Document Grounding to read a shipment rate card document and determine the most economically viable shipment carrier based on their rates, source location and destination location while creating a shipment.
 
 ## Overview
 
