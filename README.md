@@ -28,7 +28,7 @@ His job is to ensure that every delivery — from raw materials to finished good
 - Empower George to do his job more efficently.
 
 #### Agent for Shipping Logistics Activities
-<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/9f992a46-85c3-4d18-b7bb-444543b8fd25" />
+<IMAGE TO BE ADDED>
 
 ## Requirements & Prerequisites - already in place
 
@@ -46,15 +46,23 @@ His job is to ensure that every delivery — from raw materials to finished good
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+<br> Below are the exercises. Please follow them in order to begin your hands-on session
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 0 - Getting Started - Login to the Tenant](exercises/ex0/) 
+- [Exercise 1 - Test the Action Project](exercises/ex1/) 
+- [Exercise 2 - Create a Private Environment for Testing](exercises/ex2/)
+- [Exercise 3 - Copy the Project ‘WarehouseOperationsManagement’](exercises/ex3/)
+- [Exercise 4 -Creation of a new Joule Skill](exercises/ex4/)
+    - [Exercise 4.1 - Exercise 4 Sub Exercise 1 Description](exercises/ex4/ex4.1/README.md)
+    - [Exercise 4.2 - Exercise 4 Sub Exercise 2 Description](exercises/ex4/ex4.2/README.md)
+    - [Exercise 4.3 - Exercise 4 Sub Exercise 3 Description](exercises/ex4/ex4.3/README.md)
+    - [Exercise 4.4 - Exercise 4 Sub Exercise 4 Description](exercises/ex4/ex4.4/README.md)
+     
+- [Exercise 5 -Creation of an Agent](exercises/ex5/)
+- [Exercise 6 -Creation of an Agent](exercises/ex6/)
+- [Exercise 7 -Additional Section](exercises/ex7/)
+    - [Exercise 7.1 - Exercise 7 Sub Exercise 1 Description](exercises/ex7/README.md)
+    - [Exercise 7.2 - Exercise 7 Sub Exercise 2 Description](exercises/ex7/README.md)
 
   
 **OR** Link to the Tutorial Navigator for example...
