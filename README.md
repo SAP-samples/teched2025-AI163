@@ -2,7 +2,7 @@
 
 ## Description
 
-This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage  shipments in the SAP Business Network's Global Track and Trace (GTT) syste. The agent can create shipments, get delayed shipment details and even tracking details of existing shipment. It uses Document Grounding to read a shipment rate card document and determine the most economically viable shipment carrier based on their rates, source location and destination location while creating a shipment.
+This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage  shipments in the SAP Business Networks Global Track and Trace (GTT) syste. The agent can create shipments, get delayed shipment details and even tracking details of existing shipment. It uses Document Grounding to read a shipment rate card document and determine the most economically viable shipment carrier based on their rates, source location and destination location while creating a shipment.
 
 ## Overview
 
@@ -12,7 +12,7 @@ Before diving into the use case, let's take a moment to get acquainted with our 
 
 Meet George, a Logistics Coordinator at a global manufacturing company.
 
-Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using SAP Business Network's Global Track and Trace — or GTT for short.
+Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using SAP Business Networks Global Track and Trace — or GTT for short.
 His job is to ensure that every delivery — from raw materials to finished goods — reaches the customer on time and in full. 
 
 #### Persona — Logistics Coordinator
@@ -26,10 +26,23 @@ His job is to ensure that every delivery — from raw materials to finished good
 - Understands a natural-language request on the Shipment related activities.
 - Creat, Track & get a list of Delayed shipments.
 - Empower George to do his job more efficently.
-  
-## Requirements
 
-The requirements to follow the exercises in this repository are...
+#### Agent for Shipping Logistics Activities
+<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/9f992a46-85c3-4d18-b7bb-444543b8fd25" />
+
+## Requirements & Prerequisites - already in place
+
+1. Joule Studio in SAP Build 
+    - Joule Studio with Agent Builder is enabled and accessible.
+      
+2.  Actions & Destinations
+    - SAP Build Action projects - "GTTReadService" & "GTTShipment" to access the SAP Business Networks GTT System via the destinations mentioned below.
+    -  BTP Destination "gttwriteservice" & "gttGetService" made available in SAP Build via Control Tower. 
+ 
+3. SAP AI Core for document grounding 
+
+    - Resource group created and assigned.
+    - Document grounding pipeline set up and running.
 
 ## Exercises
 
