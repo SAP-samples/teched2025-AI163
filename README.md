@@ -19,8 +19,14 @@ His job is to ensure that every delivery — from raw materials to finished good
 <img width="747" height="432" alt="image" src="https://github.com/user-attachments/assets/d955078e-3896-4a28-b504-6a330525b36e" />
 
 #### Pain Points — Logistics Coordinator
+<img width="741" height="468" alt="image" src="https://github.com/user-attachments/assets/edaf66c0-fcd0-4b49-aac9-143a6e96e8a4" />
 
+### You will buid a goal-driven Joule Agent in Joule Studio that: 
 
+- Understands a natural-language request on the Shipment related activities.
+- Creat, Track & get a list of Delayed shipments.
+- Empower George to do his job more efficently.
+  
 ## Requirements
 
 The requirements to follow the exercises in this repository are...
