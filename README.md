@@ -2,7 +2,7 @@
 
 ## Description
 
-This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage  shipments in the SAP Business Network Global Track and Trace (GTT) syste. The agent can create shipments, get delayed shipment details and even tracking details of existing shipment. It uses Document Grounding to read a shipment rate card document and determine the most economically viable shipment carrier based on their rates, source location and destination location while creating a shipment.
+This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage  shipments in the SAP Business Network's Global Track and Trace (GTT) syste. The agent can create shipments, get delayed shipment details and even tracking details of existing shipment. It uses Document Grounding to read a shipment rate card document and determine the most economically viable shipment carrier based on their rates, source location and destination location while creating a shipment.
 
 ## Overview
 
@@ -12,9 +12,14 @@ Before diving into the use case, let's take a moment to get acquainted with our 
 
 Meet George, a Logistics Coordinator at a global manufacturing company.
 
-Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using SAP Business Network Global Track and Trace — or GTT for short.
+Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using SAP Business Network's Global Track and Trace — or GTT for short.
+His job is to ensure that every delivery — from raw materials to finished goods — reaches the customer on time and in full. 
 
-His job is to ensure that every delivery — from raw materials to finished goods — reaches the customer on time and in full.   
+#### Persona — Logistics Coordinator
+<img width="747" height="432" alt="image" src="https://github.com/user-attachments/assets/d955078e-3896-4a28-b504-6a330525b36e" />
+
+#### Pain Points — Logistics Coordinator
+
 
 ## Requirements
 
