@@ -1,4 +1,4 @@
-## Exercise 5 - Creation of an Agent
+## Exercise 4 - Creation of an Agent
 <br>1: In the overview page of the project, click on the drop down Create and choose Joule Agent
 <br><br><img width="940" height="320" alt="image" src="https://github.com/user-attachments/assets/4a2e4dd5-7751-45e4-9cb1-b33d82299321" />
 <br><br>Enter the below details:
