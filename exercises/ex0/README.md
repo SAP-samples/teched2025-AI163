@@ -6,4 +6,4 @@
 <img width="745" height="266" alt="image" src="https://github.com/user-attachments/assets/52d8aff5-bf5f-4c4d-a837-da718d4e8c7e" />
 <br> <br> 4: Once the Login is successful, you should be able to see the SAP Build Lobby
 <br> <img width="1878" height="867" alt="image" src="https://github.com/user-attachments/assets/ccf8908a-9ce1-4716-a39c-7c5417a85545" />
-<br> <br>  - [Next Exercise - > Exercise 1 - Test the Action Project](https://github.com/SAP-samples/teched2025-AD169/blob/main/exercises/ex1/README.md)
+<br> <br>  - [Next Exercise - > Exercise 1 - Test the Action Project](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex1/README.md)
