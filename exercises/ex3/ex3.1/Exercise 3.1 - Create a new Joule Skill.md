@@ -1,4 +1,4 @@
-## Exercise 4.1 - Create a new Joule Skill
+## Exercise 3.1 - Create a new Joule Skill
 <br> 1: Click on Create button and choose ‘Joule Skill’
 <br><br> <img width="939" height="256" alt="image" src="https://github.com/user-attachments/assets/cbe1290d-5927-46fc-bde3-ad9837c5eb20" />
 <br><br> 2: Enter the name and Description 
