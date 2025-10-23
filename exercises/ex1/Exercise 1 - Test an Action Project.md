@@ -59,5 +59,5 @@ This environment will provide a secure and isolated space to deploy and test the
 
 Once the Private Environment is ready, we’ll proceed to **use the tested Action** as part of our Joule Skill to complete the end-to-end flow.  
 
-➡️ [**Next Exercise → Exercise 2 – Create a Private Environment for Testing**](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex2/README.md)
+➡️ [**Next Exercise → Exercise 2 – Create a Private Environment for Testing**]([https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex2/README.md](https://github.com/SAP-samples/teched2025-AI163/edit/main/exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md#:~:text=images-,Exercise,-2%20%2D%20Create%20a))
 
