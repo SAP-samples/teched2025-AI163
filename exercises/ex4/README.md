@@ -1,0 +1,32 @@
+## Exercise 4: Create a new Joule Skill
+
+## 💡 Understanding Joule Skills
+
+**Joule Skills** are modular components within SAP’s conversational AI framework, designed to execute **atomic, predefined operations** within a business context.Each skill performs a single task — such as retrieving data, triggering transactions, or querying systems — based on structured inputs and deterministic logic. Their purpose is to streamline repetitive, rule-based activities by providing a **fast, reliable, and reusable automation mechanism**.
+
+Functioning within clearly defined parameters, Joule Skills are ideal for **low-complexity, high-frequency operations** where consistency and precision are critical.  
+They are tightly integrated with **SAP and third-party APIs** via **SAP Build Actions**, enabling seamless execution of system-level commands.  
+While they can understand conversation context, their logic is **non-adaptive** — flows are static, and outcomes are predictable.
+
+
+![Joule Skills Overview](https://github.com/SAP-samples/teched2025-AD169/blob/main/exercises/ex4/Joule%20Skills.jpg)
+
+
+
+> 💡 **Note:** Joule Skills can be triggered:
+> 
+>    - through SAP Joule’s conversational interface
+>    - through another Joule Skills
+>    - through Joule Agent
+
+
+
+
+## 🧩 Create a new Joule Skill
+
+In this section you will create Joule skill, Map Input to the Skill, Add a Send Message and Configure the Output parameters
+- [Exercise 4.1 - Create Joule Skill](ex4.1/README.md)
+- [Exercise 4.2 - Mapping Input variables of the Action project with Joule Skill Inputs](ex4.2/README.md)
+- [Exercise 4.3 -Add a Send message](ex4.3/README.md)
+- [Exercise 4.4 -Configure the Output Parameter](ex4.4/README.md)
+  
