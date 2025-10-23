@@ -8,7 +8,7 @@ They are tightly integrated with **SAP and third-party APIs** via **SAP Build Ac
 While they can understand conversation context, their logic is **non-adaptive** — flows are static, and outcomes are predictable.
 
 
-![Joule Skills Overview](https://github.com/SAP-samples/teched2025-AD163/blob/main/exercises/ex4/Joule%20Skills.jpg)
+![Joule Skills Overview](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Joule%20Skills.jpg)
 
 
 
