@@ -1,4 +1,4 @@
-## Exercise 3: Create a new Joule Skill
+## Exercise 3: Create a new Joule Skill Package
 
 ## 💡 Understanding Joule Skills
 
