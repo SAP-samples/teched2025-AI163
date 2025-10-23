@@ -27,5 +27,5 @@ In this section you will create Joule skill, Map Input to the Skill, Add a Send 
 - [Exercise 3.1 - Create Joule Skill](ex3.1/Exercise%203.1%20-%20Create%20a%20new%20Joule%20Skill.md)
 - [Exercise 3.2 - Mapping Input variables of the Action project with Joule Skill Inputs](ex3.2/Exercise%203.2%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
 - [Exercise 3.3 -Add a Send message](ex3.3/Exercise%203.3%20-%20Add%20a%20Send%20message%20in%20Joule%20Skill.md)
-- [Exercise 3.4 -Configure the Output Parameter](ex3.4/README.md)
+- [Exercise 3.4 -Configure the Output Parameter](ex3.4/Exercise%203.4%20-%20Configure%20the%20Output%20Parameter.md)
   
