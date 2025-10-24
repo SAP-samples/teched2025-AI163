@@ -73,7 +73,7 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 | S.No | Name | Identifier | Description | Type | Required | List |
 |------|------|-------------|--------------|------|-----------|------|
-| 1 | json | json | JSON | Any | ✅ | ✅ |
+| 1 | json | json | JSON | Any | ✅ Checked| ✅ Checked|
 
 <img width="1793" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf645a0-d605-4256-b42b-3b58f0603ea1" />
 
