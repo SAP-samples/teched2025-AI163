@@ -57,11 +57,11 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <br><br>10: Click on the $filter input area and select the <img width="100" height="25" alt="image" src="https://github.com/user-attachments/assets/97985dd3-212e-4ea3-9a00-a61302b9107b" /> option which will take you to the Formula Editor.
 <img width="1790" height="850" alt="image" src="https://github.com/user-attachments/assets/79f00018-3f51-49ed-b404-042910d48a65" />
 
-<br><br> Input "ConcatenateStrings(["delayStatus eq ", true, ""], "")" in the formual editor and click on 'Apply'
+<br><br> Input `ConcatenateStrings(["delayStatus eq ", true, ""], "")` in the formual editor and click on 'Apply'
 
 <img width="1795" height="847" alt="image" src="https://github.com/user-attachments/assets/d8143fc2-7989-4a21-9bc9-35d7a2c30206" />
 <br><br>11: Finally, we will now create an output parameter for the Joule Skill and map the Action output to it. 
 
-<br><br>12: Save your Joule Skill.:white_check_mark:
+<br><br>12: Save your Joule Skill. :white_check_mark:
 
 - [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
