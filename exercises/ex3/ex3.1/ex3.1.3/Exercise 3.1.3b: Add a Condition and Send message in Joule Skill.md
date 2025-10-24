@@ -1,4 +1,4 @@
-## Exercise 3.1.3b - Add a Send message in Joule Skill
+## Exercise 3.1.3b - Add a Condition and Send message in Joule Skill
 <br> 1: Below the Action call, click on the ‘+’ button and choose Send Response. Click on ‘Send message’
 <br><br> <img width="940" height="461" alt="image" src="https://github.com/user-attachments/assets/297092e9-0f24-493a-8048-090cf9c1b817" />
 <br><br>2: On the right, change the step name as ‘Simulate Workload Message’ and save.
