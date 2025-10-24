@@ -1,6 +1,6 @@
 ## Exercise 3.0 - :new: Create a new Joule Skill Package
 <br> 1: Open the SAP Build Lobby.
-<br> 2: Click on the *Create* Button 
+<br> 2: Click on the **Create** Button 
 
 <img width="1796" height="705" alt="image" src="https://github.com/user-attachments/assets/fd132a86-759e-47f9-a26f-26e2698793c5" />
 
