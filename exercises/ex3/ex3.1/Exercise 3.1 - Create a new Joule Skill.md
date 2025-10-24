@@ -64,4 +64,4 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 
   
-<br> <br>  - [Next Exercise - > Exercise 3.2 - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AD169/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex3/ex3.2/Exercise%203.2%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
+<br> <br>  - [Next Exercise - > Exercise 3.2 - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AI163/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex3/ex3.2/Exercise%203.2%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
