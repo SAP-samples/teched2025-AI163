@@ -20,4 +20,4 @@
 <img width="1790" height="835" alt="image" src="https://github.com/user-attachments/assets/53298342-4a0b-455f-9774-1ae527353515" />
 
 
-<br> <br>  - [Next Exercise - > Exercise 3.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/Exercise%203.1%20-%20Create%20a%20new%20Joule%20Skill.md)
+<br> <br>  - [Next Exercise - > Exercise 3.1.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
