@@ -86,15 +86,15 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <br>Click on the Configure button next to the Skill Outputs 
 <img width="1798" height="643" alt="image" src="https://github.com/user-attachments/assets/77841505-85e8-4b58-be6b-c2f9ff2bc5fe" />
 
-<br><br>Click on the 'Add Onput' button and add the following Onputs with Description. 
+<br><br>Click on the 'Add Ouput' button and add the following Onputs with Description. 
 > [!Note]
   > - All the Identifiers are entered automatically and will be same as ‘Name’ field
 
 | **S.No** | **Name**          | **Identifier**     | **Description**     | **Type** | **Required** | **List** |
 |:--------:|-------------------|--------------------|---------------------|-----------|---------------|-----------|
-| 1 | gttstatus        | gttstatus        | Status              | String | ⬜ | ⬜ |
-| 2 | destinationcity  | destinationcity  | Destination City    | String | ⬜ | ⬜ |
-| 3 | json             | json             | JSON                | Any    | ⬜ | ⬜ |
+| 1 | gttstatus        | gttstatus        | Status              | String | ⬜ Unchecked| ⬜ Unchecked|
+| 2 | destinationcity  | destinationcity  | Destination City    | String | ⬜ Unchecked| ⬜ Unchecked|
+| 3 | json             | json             | JSON                | Any    | ⬜ Unchecked| ⬜ Unchecked|
 
 <img width="1798" height="813" alt="image" src="https://github.com/user-attachments/assets/2e5aa012-d52c-4e1f-9606-eb6128aa5039" />
 
