@@ -1,65 +1,45 @@
-## Exercise 3.1 - <img width="64" height="54" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create a new Joule Skill
+## Exercise 3.1 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create a new Joule Skill
 We will now create our Joule Skills within the Joule Skill Package.
 <br><br>For this hands-on, we will be creating a total of: 
   <br> - 3 Joule Skills.
   <br> - 1 Joule Agent which uses these skills as **tools** along with Document Grounding. 
 
-### <img width="64" height="54" alt="image" src="https://github.com/user-attachments/assets/4492da9e-a2d9-49d9-a30e-855f7c3663a0" /> First Joule Skill: Create Shipment 
+### <img width="15" height="25" alt="image" src="https://github.com/user-attachments/assets/4492da9e-a2d9-49d9-a30e-855f7c3663a0" /> First Joule Skill: Create Shipment 
+This Joule Skill is used to create a shipment in the SAP Business Networks GTT System
 <br><br>  1: Click on Create button and choose ‘Joule Skill’
-<br><br> <img width="939" height="256" alt="image" src="https://github.com/user-attachments/assets/cbe1290d-5927-46fc-bde3-ad9837c5eb20" />
+<img width="1785" height="799" alt="image" src="https://github.com/user-attachments/assets/25e74b71-36b3-4310-8afd-dd0af40f102a" />
+
 <br><br> 2: Enter the name and Description 
-<br> - Name: SimulateWorkforceOptimization
-<br> - Description: Simulate Picking Workforce Optimization
+<br> - Name: Create Shipment
+<br> - Description: A skill to create shipment or update shipment with ONLY carrier name.During update only carrier is required.
 <br> Click on ‘Create’ button
-<br><br> <img width="939" height="346" alt="image" src="https://github.com/user-attachments/assets/98a9cbea-a8c7-4f93-bf20-5abf982de7b0" />
-<br><br> 3: Once the Joule skill is created, click on the Joule skill to open the skill builder
-<br> 4: Click on the ‘<<’ button on the right side of the screen to open the skill input and output parameters
-<br><br> <img width="940" height="291" alt="image" src="https://github.com/user-attachments/assets/c63337c3-a533-4700-b1d0-a8db7c061a1e" />
+> [!Note]
+  > - The Identifier is autopoulated based on the Skill name
+<img width="1794" height="670" alt="image" src="https://github.com/user-attachments/assets/f973ea8e-fbf4-4cb6-a84a-5adbbf5fc0b8" />
+
+<br><br> 3: Once the Joule skill is created, you are taken to the skill builder
+<br> 4: Click on the <img width="18" height="20" alt="image" src="https://github.com/user-attachments/assets/7a9ecb53-0c74-4fcc-a7de-3deec6113ca9" /> button on the right side of the screen to open the skill input and output parameters
+<img width="1790" height="643" alt="image" src="https://github.com/user-attachments/assets/85646164-311a-47d7-b509-897c005d2db7" />
+
 <br><br>5: Click on the ‘Parameters’ tab and expand the section, ‘Skill Inputs’. Click on ‘Configure’ button to configure the skill inputs.
-<br> <img width="940" height="388" alt="image" src="https://github.com/user-attachments/assets/8f6aa26c-46a3-4cd9-a87d-31dcb0ae9766" />
+<img width="1787" height="643" alt="image" src="https://github.com/user-attachments/assets/65d0c9ab-11cd-4e34-81ce-b568501c2313" />
+
 <br><br>6: Add the following Inputs with Description. 
 > [!Note]
   > - All the Identifiers are entered automatically and will be same as ‘Name’ field
-<br><br>
-<table>
-  <tr>
-    <th>Serial Number</th>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>IsSimulation</td>
-    <td>Flag to check the simulation</td>
-    <td>Checked</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>PlanningStart</td>
-    <td>Planning start date and time convert to UTC</td>
-    <td>Checked</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>PlanningFrom</td>
-    <td>Planning from date and time convert to UTC</td>
-    <td>Checked</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>PlanningTo</td>
-    <td>Planning to date and time convert to UTC</td>
-    <td>Checked</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Warehouse</td>
-    <td>Warehouse</td>
-    <td>Checked</td>
-  </tr>
-</table>
-<br><br> Once added the inputs, click on ‘Save’ button.
+
+| **S.No** | **Name**       | **Identifier** | **Description**         | **Required** |
+|:--------:|----------------|----------------|--------------------------|---------------|
+| 1 | shipmentid     | shipmentid     | Shipment ID              | ✅ |
+| 2 | srclocation    | srclocation    | Source Location          | ✅ |
+| 3 | destlocation   | destlocation   | Destination Location     | ✅ |
+| 4 | datetime       | datetime       | Pick up Date             | ✅ |
+| 5 | carrier        | carrier        | carrierid                | ⬜ (not required) |
+
+<img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/aecfc36a-583e-4685-a273-1a492bc7186f" />
+
+
+<br><br> Once all inputs are added, click on ‘Save’ button.
 <br>7: In the skill builder, click on the ‘+’ button to add the action that was tested in Exercise 1
 <br><br><img width="940" height="248" alt="image" src="https://github.com/user-attachments/assets/b56990ed-b7d8-4430-a140-29555acc73ad" />
 <br><br>8: Choose the option, ‘Call Action’
