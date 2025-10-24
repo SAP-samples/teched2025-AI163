@@ -1,8 +1,8 @@
 ## Exercise 3.1 - Create a new Joule Skill
 We will now create our Joule Skills within the Joule Skill Package.
 <br>For this hands-on, we will be creating a total of: 
-  <br> - 3 Joule Skills.
-  <br> - 1 Joule Agent which uses these skills along with Document Grounding. 
+- 3 Joule Skills.
+- 1 Joule Agent which uses these skills along with Document Grounding. 
 <br> 1: Click on Create button and choose ‘Joule Skill’
 <br><br> <img width="939" height="256" alt="image" src="https://github.com/user-attachments/assets/cbe1290d-5927-46fc-bde3-ad9837c5eb20" />
 <br><br> 2: Enter the name and Description 
