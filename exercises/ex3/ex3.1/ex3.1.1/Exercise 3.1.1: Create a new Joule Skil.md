@@ -2,9 +2,9 @@
 We will now create our Joule Skills within the Joule Skill Package.
 <br><br>For this hands-on, we will be creating a total of: 
   <br> - 3 Joule Skills.
-  <br>     -- One to fetch all delayed shipments from the GTT system.
-  <br>     -- One to track a particular shipment the GTT system using its shipment id. 
-  <br>     -- One to create a shipment in the GTT system
+  <br>&nbsp;&nbsp; :heavy_minus_sign: One to fetch all delayed shipments from the GTT system.
+  <br>&nbsp;&nbsp; :heavy_minus_sign: One to track a particular shipment the GTT system using its shipment id. 
+  <br>&nbsp;&nbsp; :heavy_minus_sign: One to create a shipment in the GTT system
   <br> - 1 Joule Agent which uses these skills as **tools** along with Document Grounding. 
 
 ### <img width="15" height="25" alt="image" src="https://github.com/user-attachments/assets/4492da9e-a2d9-49d9-a30e-855f7c3663a0" /> First Joule Skill: Delayed Shipment
