@@ -12,7 +12,7 @@
 <br> - Description: Create shipments in GTT from Joule
 > :exclamation:Replace UserId with you username to easily identify your package in the SAP Build Studio Lobby
 
-<br> 5: Click on Review to review your inputs followed by the ‘Create’ button
+<br> 5: Click on 'Review' to review your inputs followed by the ‘Create’ button
 
 ![2025-10-24_07-50-43 (3)](https://github.com/user-attachments/assets/06387725-d200-48f6-8100-001f2931215d)
 
