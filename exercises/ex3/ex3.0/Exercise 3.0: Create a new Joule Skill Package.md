@@ -1,16 +1,25 @@
 ## Exercise 3.0 - :new: Create a new Joule Skill Package
 <br> 1: Open the SAP Build Lobby.
 <br> 2: Click on the **Create** Button 
-<br> 3: Click on the **Joule Skill** option 
+<img width="1794" height="740" alt="image" src="https://github.com/user-attachments/assets/baa3d4e4-458b-4e39-bae4-8647926c952c" />
 
-<img width="1796" height="705" alt="image" src="https://github.com/user-attachments/assets/fd132a86-759e-47f9-a26f-26e2698793c5" />
+<br><br> 3: On the next screen Select the **Joule Skill** tile, then choose Next.
+<img width="1967" height="1238" alt="image" src="https://github.com/user-attachments/assets/ba884ee2-8ee2-406f-ba6f-613b01abf43d" />
+
 
 <br><br> 4: Enter the name and Description of the Package
 <br> - Name: Logistics Agent UserId
 <br> - Description: Create shipments in GTT from Joule
-<br> Click on ‘Create’ button
 > :exclamation:Replace UserId with you username to easily identify your package in the SAP Build Studio Lobby
-<img width="1796" height="695" alt="image" src="https://github.com/user-attachments/assets/ded02507-7fa3-491d-bd2b-3946c37de4f4" />
+
+<br> 5: Click on Review to review your inputs followed by the ‘Create’ button
+
+![2025-10-24_07-50-43 (3)](https://github.com/user-attachments/assets/06387725-d200-48f6-8100-001f2931215d)
+
+#### :fire: Your Package will now open in a new tab
+<img width="1790" height="835" alt="image" src="https://github.com/user-attachments/assets/53298342-4a0b-455f-9774-1ae527353515" />
+
+
 
 <br><br> 3: Once the Joule skill is created, click on the Joule skill to open the skill builder
 <br> 4: Click on the ‘<<’ button on the right side of the screen to open the skill input and output parameters
