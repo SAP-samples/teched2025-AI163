@@ -36,23 +36,32 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 | 4 | datetime       | datetime       | Pick up Date             | ✅ |
 | 5 | carrier        | carrier        | carrierid                | ⬜ (not required) |
 
-<img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/77342fec-ac78-4144-8eee-52151e1a0d1b" />
-
-
-
 <br><br> Once all inputs are added, click on ‘Apply’ button.
+<img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/59a23305-7c8a-4072-8df0-f8f1260d9f83" />
 
-<br>7: In the skill builder, click on the ‘+’ button to add the action that was tested in Exercise 1
-<br><br><img width="940" height="248" alt="image" src="https://github.com/user-attachments/assets/b56990ed-b7d8-4430-a140-29555acc73ad" />
+<br>7: In the skill builder, click on the ‘+’ button to add the action that was tested earlier
+<img width="1790" height="673" alt="image" src="https://github.com/user-attachments/assets/3c6105a3-e43c-4229-b900-d4c6f1299c41" />
+
 <br><br>8: Choose the option, ‘Call Action’
-<br><br><img width="940" height="376" alt="image" src="https://github.com/user-attachments/assets/ee7f5db5-0687-4c98-84a2-1d486c875d1b" />
-<br><br>9: From the list of actions displayed, choose the action ‘Invokes action optimizeWorkload’
-<br><br><img width="940" height="604" alt="image" src="https://github.com/user-attachments/assets/d636dbf1-a4e3-4513-91e8-8ed9ef3207ee" />
-<br><br>10: Once the action call is added, click on it so that a right panel opens for adding Input and Output parameters
-<br><br><img width="940" height="387" alt="image" src="https://github.com/user-attachments/assets/9bc994c2-9057-48f7-bcd1-5c7f00fad8f6" />
-<br><br>11: Add a ‘Destination Variable’, which is already pre-created in the project.
-Destination variable name : WHSOPMNG_DEST
-<br><br><img width="940" height="364" alt="image" src="https://github.com/user-attachments/assets/40be0237-f80a-45e7-be6a-d2924e982e19" />
+<img width="1789" height="810" alt="image" src="https://github.com/user-attachments/assets/ef020b5b-54b3-499b-b9b0-6fab00db9f53" />
+
+<br><br>9: Click on the 'Browse All Actions" option
+<img width="1775" height="779" alt="image" src="https://github.com/user-attachments/assets/18426b2b-9ab1-4729-bb96-912c67fb9be1" />
+
+<br><br>10: In the search bar, enter 'createshipment' and press Enter to search for the Action to create a shipment and click on the Add button
+<img width="1793" height="915" alt="image" src="https://github.com/user-attachments/assets/9f72cb4b-4b50-457b-960a-b20dabb00093" />
+
+<br><br>11: Once the action call is added, click on it so that a right panel opens for adding Input and Output parameters & the Destination variable
+<img width="1794" height="757" alt="image" src="https://github.com/user-attachments/assets/aaf37d72-a657-409d-b5c7-dc3bb757b73f" />
+
+<br><br>12: Create a ‘Destination Variable’
+<br>Destination variable name : PostToGTT
+<br>Description: Destination to create shipment in the GTT System
+> [!Note]
+  > - Once created, remember to select the destination name from the dropdown and Save your project.
+
+<br>![2025-10-24_11-27-50 (1)](https://github.com/user-attachments/assets/2574b83d-12d3-4dbd-be2d-3f50162b3d98)
+
 
   
-<br> <br>  - [Next Exercise - > Exercise 4.2 - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AD169/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex4/README.md/ex4.2/README.md)
+<br> <br>  - [Next Exercise - > Exercise 3.2 - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AD169/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex3/ex3.2/Exercise%203.2%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
