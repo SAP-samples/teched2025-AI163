@@ -1,4 +1,4 @@
-## Exercise 3.1.2 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create your 2nd Joule Skill
+## Exercise 3.1.3 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create your 2nd Joule Skill
 We will now create our Joule Skills within the Joule Skill Package.
 <br><br>For this hands-on, we will be creating a total of: 
   <br> - 3 Joule Skills.
