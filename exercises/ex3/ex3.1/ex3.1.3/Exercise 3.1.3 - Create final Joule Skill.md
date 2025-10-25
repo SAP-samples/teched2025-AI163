@@ -10,8 +10,8 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 
 <br><br> 2: Enter the name and Description 
-<br> - Name: Create Shipment
-<br> - Description: A skill to create shipment or update shipment with ONLY carrier name.During update only carrier is required.
+<br>-Name: Create Shipment
+<br>- Description: A skill to create shipment or update shipment with ONLY carrier name.During update only carrier is required.
 <br> Click on ‘Create’ button
 > [!Note]
   > - The Identifier is autopoulated based on the Skill name
@@ -40,7 +40,8 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <br><br> Once all inputs are added, click on ‘Apply’ button.
 <img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/59a23305-7c8a-4072-8df0-f8f1260d9f83" />
 
-<br>7: In the skill builder, click on the ‘+’ button to add the Action to create shipments.
+<br>7: In the skill builder, click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" />
+ button to add the Action to create shipments.
 <img width="1790" height="673" alt="image" src="https://github.com/user-attachments/assets/3c6105a3-e43c-4229-b900-d4c6f1299c41" />
 
 <br><br>8: Choose the option, ‘Call Action’
@@ -56,8 +57,9 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <img width="1794" height="757" alt="image" src="https://github.com/user-attachments/assets/aaf37d72-a657-409d-b5c7-dc3bb757b73f" />
 
 <br><br>12: Create a ‘Destination Variable’
-<br>Destination variable name : PostToGTT
-<br>Description: Destination to create shipment in the GTT System
+<br>Click on the Destination Variable input area and select "Create Destination Variable" and provide the inputs below:
+<br>-Destination variable name : PostToGTT
+<br>-Description: Destination to create shipment in the GTT System
 > [!Note]
   > - Once created, remember to select the destination name from the dropdown and Save your project.
 
