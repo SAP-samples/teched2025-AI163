@@ -1,6 +1,7 @@
 ## Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs
-<br> 1: Select the Action in the Skill Builder and click on Inputs tab to map the skill inputs to action call inputs. Click on the field, ‘planning_horizon_from’. The skill content list will open on the left. As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
-<br><br><img width="939" height="465" alt="image" src="https://github.com/user-attachments/assets/4fdea1c3-f6b7-437b-8ebe-25a31a107552" />
+<br> 1: Select the Action in the Skill Builder and click on Inputs tab to map the skill inputs to action call inputs. Scroll through and locate the fields shown in the table below and click on the fields. The skill content list will open on the left. As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
+<img width="1796" height="810" alt="image" src="https://github.com/user-attachments/assets/3f020e15-329a-4993-a0eb-40c90a2c26e3" />
+
 
 | Field Name              | Mapped Path                 | Data Type |
 |--------------------------|-----------------------------|-----------|
