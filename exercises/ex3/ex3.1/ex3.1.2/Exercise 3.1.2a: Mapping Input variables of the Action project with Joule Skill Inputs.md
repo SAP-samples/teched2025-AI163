@@ -37,5 +37,5 @@
 <br><br>3: Map the variable ‘Warehouse’ with skill input ‘Warehouse’
 <br><br><img width="939" height="418" alt="image" src="https://github.com/user-attachments/assets/55821163-09bd-434b-b91f-c5f35842bdc9" />
 
-<br> <br>  - [Next Exercise - > Exercise 4.3 - Add a Send Message in Joule Skill](https://github.com/SAP-samples/teched2025-AD169/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex4/README.md/ex4.3/README.md)
-<br><br>Click on the Save button to save the Joule skill.
+<br> <br>  - [Next Exercise - > Exercise 3.1.3 - Create your last Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
+
