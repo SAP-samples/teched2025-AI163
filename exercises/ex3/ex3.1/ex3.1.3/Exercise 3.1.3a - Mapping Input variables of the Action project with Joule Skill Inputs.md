@@ -2,7 +2,7 @@
 <br> 1: Select the Action in the Skill Builder and click on Inputs tab to map the skill inputs to action call inputs. Scroll through and locate the fields shown in the table below and click on the fields. The skill content list will open on the left. As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
 <img width="1796" height="810" alt="image" src="https://github.com/user-attachments/assets/3f020e15-329a-4993-a0eb-40c90a2c26e3" />
 > [!Note]
-  > - Replace the texts in $${\color{red}Red}$$ with the skill input in the expression editor
+  > - Replace the texts in $${\color{red}Red}$$ with the skill input in the expression editor as done in previous sections
 
 | Field Name              | Mapped Path                 | Value |
 |--------------------------|-----------------------------|-----------|
