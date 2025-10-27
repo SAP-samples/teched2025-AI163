@@ -96,6 +96,4 @@ Save the Agent
 
 
 
-- Next Exercise - > Exercise 4.1 - Test an Agent in a Private Environment
-
-teched2025-
+<br> <br>  - [Next Exercise - > Exercise 4.1 - Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
