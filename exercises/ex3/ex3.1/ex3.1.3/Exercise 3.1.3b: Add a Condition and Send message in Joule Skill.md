@@ -36,7 +36,7 @@ Repeat this for Branch 2 and name it as 'Shipment Update Message'.
 <br>Your Send Message step should look like the image below. You will also notice a preview of what you have designed on the left side. 
 <img width="1550" height="665" alt="image" src="https://github.com/user-attachments/assets/2b9295c1-c0f0-4e0e-b2b1-e61b20d4a00c" />
 <br>
-<br>We will now replicate these steps for the 'Shipment Update Message' in Branch 2 witha a change in few fields as per the table below:
+<br>We will now replicate these steps for the 'Shipment Update Message' in Branch 2 with a change in few fields as per the table below:
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
