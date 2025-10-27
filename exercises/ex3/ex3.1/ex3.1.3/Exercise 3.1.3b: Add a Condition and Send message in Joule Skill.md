@@ -1,4 +1,4 @@
-## Exercise 3.1.3b - Add a Condition and Send message in Joule Skill
+## Exercise 3.1.3b - Add Send Message steps in Joule Skill
 <br> A 'Send Message' step enables you to send a personalized & pre-defined message to the end user in addion to the standard Joule response. 
 <br> We will be creating 2 "Send Message" steps, one for each of the branches mentioned above. 
 
