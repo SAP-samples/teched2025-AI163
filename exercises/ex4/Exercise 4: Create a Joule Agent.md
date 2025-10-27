@@ -60,7 +60,7 @@ The prompts from the user could be in any order, evaluate the right tool to be u
 <img width="1797" height="898" alt="image" src="https://github.com/user-attachments/assets/16feaee2-b821-4ce0-94cf-3bea0ccb489d" />
 
 <br>4: In the ‘Tools’ Section, add ‘Documents’ as Tools:
-<br>Click on ‘Add Tool’ -> ’Documents’
+<br><br>Click on ‘Add Tool’ -> ’Documents’
 <br>Enter the below details:
 <br>Tool name: ‘Carrier Selection Guide'
 <br>Description: ‘Internal guidelines required by the agent to select cheapest carrier based on the costs provided in the document. It covers the carrier selection guide as a table with all possible carriers for the given source and destination location.’
