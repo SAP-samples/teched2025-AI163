@@ -54,4 +54,4 @@ Repeat this for Branch 2 and name it as 'Shipment Update Message'.
 <br><br>Save you Skill
 
 
-<br> <br>  - [Next Exercise - > Exercise 4.4 - Configure the Output Parameter](https://github.com/SAP-samples/teched2025-AD169/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex4/README.md/ex4.4/README.md)
+<br> <br>  - [Next Exercise - > Exercise 4 - Create A Joule Agent! ](https://github.com/SAP-samples/teched2025-AD169/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex4/README.md/ex4.4/README.md)
