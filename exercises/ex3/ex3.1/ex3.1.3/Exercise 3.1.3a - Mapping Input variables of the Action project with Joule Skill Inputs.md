@@ -3,10 +3,10 @@
 <img width="1796" height="810" alt="image" src="https://github.com/user-attachments/assets/3f020e15-329a-4993-a0eb-40c90a2c26e3" />
 
 
-| Field Name              | Mapped Path                 | Data Type |
+| Field Name              | Mapped Path                 | Data Type | Expression |
 |--------------------------|-----------------------------|-----------|
 | actualBusinessTimestamp  | Skill Inputs > datetime     | datetime  |
-| altKey                   | Expression                  | Expression|
+| altKey                   | Expression                  | Expression|ConcatenateStrings(["xri://sap.com/id:LBN#10010002478:EWWCLNT220:FT1_SHIPMENT:", <ShipmentId>], "")|
 | arrivalLocationId        | Skill Inputs > destlocation | Text      |
 | departureLocationId      | Skill Inputs > srclocation  | Text      |
 | plannedArrivalDateTime   | Static: 2025-12-21T00:00:00+08:00 | datetime |
