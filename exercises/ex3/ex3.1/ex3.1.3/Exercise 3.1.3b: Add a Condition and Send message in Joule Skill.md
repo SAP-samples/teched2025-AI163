@@ -1,6 +1,6 @@
 ## Exercise 3.1.3b - Add Send Message steps in Joule Skill
 <br> A 'Send Message' step enables you to send a personalized & pre-defined message to the end user in addion to the standard Joule response. 
-<br> We will be creating 2 "Send Message" steps, one for each of the branches mentioned above. 
+<br> We will be creating 2 "Send Message" steps, one for each of the Condition branches mentioned in the previous section. 
 
 <br>In Branch 1, Click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button & select 'Send Response' followed by 'Send Message'. Repeat the step for Branch 2, as well.
 <br>
