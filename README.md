@@ -27,8 +27,6 @@ His job is to ensure that every delivery — from raw materials to finished good
 - Create, Track & get a list of Delayed shipments.
 - Empower George to do his job more efficently.
 
-#### Agent for Shipping Logistics Activities
-<IMAGE TO BE ADDED>
 
 ## Requirements & Prerequisites - already in place
 
