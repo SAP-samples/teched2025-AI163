@@ -1,53 +1,56 @@
 ## Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs
 <br> 1: Select the Action in the Skill Builder and click on Inputs tab to map the skill inputs to action call inputs. Scroll through and locate the fields shown in the table below and click on the fields. The skill content list will open on the left. As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
 <img width="1796" height="810" alt="image" src="https://github.com/user-attachments/assets/3f020e15-329a-4993-a0eb-40c90a2c26e3" />
+> [!Note]
+  > - Replace the texts in $${\color{red}Red}$$ with the skill input in the expression editor
 
-
-| Field Name              | Mapped Path                 | Data Type | Expression |
+| Field Name              | Mapped Path                 | Value |
 |--------------------------|-----------------------------|-----------|
-| actualBusinessTimestamp  | Skill Inputs > datetime     | datetime  |
-| altKey                   | Expression                  | Expression|ConcatenateStrings(["xri://sap.com/id:LBN#10010002478:EWWCLNT220:FT1_SHIPMENT:", <ShipmentId>], "")|
-| arrivalLocationId        | Skill Inputs > destlocation | Text      |
-| departureLocationId      | Skill Inputs > srclocation  | Text      |
-| plannedArrivalDateTime   | Static: 2025-12-21T00:00:00+08:00 | datetime |
-| plannedDepartureDateTime | Skill Inputs > datetime     | datetime  |
-| serviceAgentLbnId        | Skill Inputs > carrier      | Text      |
-| shipmentNo               | Skill Inputs > shipmentid   | Text      |
-
-<br><br><img width="940" height="368" alt="image" src="https://github.com/user-attachments/assets/22cbc3bb-e60d-4d51-97d3-7262078e5482" />
-
-<br><br>Here, type 'PlanningFrom' in the formula editor 
-<br><br><img width="940" height="386" alt="image" src="https://github.com/user-attachments/assets/01426f05-ccfc-462a-8a9e-674f658b10fe" />
-
-<br><br>Click on Apply button
-<br><br><img width="940" height="541" alt="image" src="https://github.com/user-attachments/assets/015e3fcd-d755-40a8-933d-6fc89a1ab869" />
-
-<br>Similarly map the below fields
+| actualBusinessTimestamp  | Apply Formula    | DateTimeFromISO($${\color{red}Skill Input>datetime}$$) |
+| altKey                   | Apply Formula| ConcatenateStrings(["xri://sap.com/id:LBN#10010002478:EWWCLNT220:FT1_SHIPMENT:", $${\color{red}Skill Input>shipmentid}$$], "")|
+| arrivalLocationId        | Skill Inputs > destlocation | |
+| departureLocationId      | Skill Inputs > srclocation  | |
+| plannedArrivalDateTime   | Static  | 2025-12-21T00:00:00+08:00 |
+| plannedDepartureDateTime | Apply Formula   | DateTimeFromISO($${\color{red}Skill Input>datetime}$$) |
+| serviceAgentLbnId        | Skill Inputs > carrier      | |
+| shipmentNo               | Skill Inputs > shipmentid   | |
 <br>
-<table>
-  <tr>
-    <th>Action Inputs</th>
-    <th>Skill Content / Skill Input Variables</th>
-   </tr>
-  <tr>
-    <td>planning_horizon_to</td>
-    <td>PlanningTo</td>
-    </tr>
-  <tr>
-    <td>planning_start</td>
-    <td>PlanningStart</td>
-   </tr>
-</table>
-<br><br>2: Click on the field, ‘is_simulation’ and ‘Apply a formula’.
-<br>In the ‘Functions’ section, expand ‘Boolean functions’ and choose ‘ValuesAreEqual’. Then click on ‘Insert’ button.
-<br><br><img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/0af0a409-99a9-4443-893e-61cd2615e6e6" />
 
-<br><br>Add the values in the bracket as ("true", "true")
-<br>Click on the Apply button
-<br><br><img width="940" height="509" alt="image" src="https://github.com/user-attachments/assets/bfd812f5-6a73-4bea-b1ae-bd3e1759a5d2" />
+### Create A Condition Branch
+<br>We will now create a condition branch in the Skill builder to check if a carrier exists for the shipment (update) or we are creating a fresh shipment without a carrier. 
 
-<br><br>3: Map the variable ‘Warehouse’ with skill input ‘Warehouse’
-<br><br><img width="939" height="418" alt="image" src="https://github.com/user-attachments/assets/55821163-09bd-434b-b91f-c5f35842bdc9" />
+<br>In the skill builder click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button *after* the Action step and select 'Condition Check'
+<img width="1257" height="762" alt="image" src="https://github.com/user-attachments/assets/e33654c6-648c-4f07-a158-6160fe714308" />
+
+<br>Name the step as 'Is Carrierid Empty' and then click on the Options button and then 'Condition Editor'
+<img width="1789" height="709" alt="image" src="https://github.com/user-attachments/assets/57eb1a05-9536-49cb-bbc5-b769495333c0" />
+<br><br>We will now define the contion to check if the carrier id is empty.
+<br><br> Click on the first input field and select the Skill Input as 'carrier'. Then select 'is empty' from the next drop down menu. Finally click Apply to save the condition.
+<img width="1660" height="758" alt="image" src="https://github.com/user-attachments/assets/8fa48c2a-0b5c-4262-a472-6c1631370313" />
+<br><br>
+On the Condition step, click on <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/4f8e276d-28ce-413b-8c99-cc178d5e3064" />
+the button to expand the condition and view the condition branches. i.e. Branch 1 and Branch 2
+<img width="1531" height="651" alt="image" src="https://github.com/user-attachments/assets/f1ed4f7f-ef72-4dc1-8c2e-f1a085062163" />
+
+### Create a 'Send Message' step
+
+<br> A 'Send Message' step enables you to send a personalized & pre-defined message to the end user in addion to the standard Joule response. 
+<br> We will be creating 2 "Send Message" steps, one for each of the branches mentioned above. 
+
+<br>In Branch 1, Click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button & select 'Send Response' followed by 'Send Message'. Repeat the step for Branch 2, as well.
+<br>
+![2025-10-27_18-00-19 (1)](https://github.com/user-attachments/assets/a0659e7d-6fbe-4fc6-ac0c-81f6486d4c2a)
+
+Click on the Send Message step on branch 1 and name it as 'Create Shipment Message'.
+<br>
+<img width="1786" height="699" alt="image" src="https://github.com/user-attachments/assets/1adda104-bdfb-4fc8-8ea1-e53135dbb9b4" />
+<br>
+Repeat this for Branch 2 and name it as 'Shipment Update Message'.
+<img width="1796" height="658" alt="image" src="https://github.com/user-attachments/assets/7344e2bd-daa6-419a-9183-d9d4b18679a7" />
+
+
+
+
 
 <br> <br>  - [Next Exercise - > Exercise 3.1.3b - Add a Condition and Send Message in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
 <br><br>Click on the Save button to save the Joule skill.
