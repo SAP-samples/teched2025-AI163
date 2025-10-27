@@ -58,8 +58,8 @@ His job is to ensure that every delivery — from raw materials to finished good
     - [Exercise 3.1.3b - Add Send Message steps in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
 
      
-- [Exercise 4 -Creation of an Agent](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204%20-%20Creation%20of%20an%20Agent.md)
-    - Exercise 4.1: [Test an Agent in Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
+- [Exercise 4 -Creation of an Agent](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204%3A%20Create%20a%20Joule%20Agent.md)
+    - [Exercise 4.1: Test an Agent in Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
 - [Exercise 5 - Additional Section - Exercise to Release, Deploy and Test the Agent in Shared Environment]()
 
 
