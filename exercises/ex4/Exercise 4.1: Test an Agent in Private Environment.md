@@ -10,13 +10,12 @@
 <img width="1783" height="798" alt="image" src="https://github.com/user-attachments/assets/989661f9-aea0-469f-9580-90a214749c47" />
 
 <br>Input the following Values 
-<br>Identifier: AiCore
-<br>Description: Destination for AI Core 
-<br>Type: Destination
+<br>-Identifier: AiCore
+<br>-Description: Destination for AI Core 
+<br>-Type: Destination
 <img width="1781" height="799" alt="image" src="https://github.com/user-attachments/assets/5139c4b5-d540-4266-9c41-3e8b3071d400" />
 
-<br>Now click on the Agent once again 
-To test the Agent, follow the below steps:
+<br>Now click on the Agent once again - to test the Agent, follow the below steps:
 <br>1: Click on the Test button on the right top corner of the Agent builder.
 <br>2: In the pop-up screen, provide the details:
 <br>$$\color{blue}{Environment}$$: Choose your __userid_ related environment
