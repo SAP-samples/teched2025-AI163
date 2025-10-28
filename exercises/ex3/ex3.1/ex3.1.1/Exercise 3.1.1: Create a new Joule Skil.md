@@ -8,7 +8,7 @@ We will now create our Joule Skills within the Joule Skill Package.
   <br> - 1 Joule Agent which uses these skills as **tools** along with Document Grounding. 
 
 ### <img width="15" height="25" alt="image" src="https://github.com/user-attachments/assets/4492da9e-a2d9-49d9-a30e-855f7c3663a0" /> First Joule Skill: Delayed Shipment
-This Joule Skill is used to create a shipment in the SAP Business Networks GTT System
+This Joule Skill is used to fetch delayed shipments from the SAP Business Networks GTT System
 <br><br>  1: Click on Create button and choose ‘Joule Skill’
 <img width="1785" height="799" alt="image" src="https://github.com/user-attachments/assets/25e74b71-36b3-4310-8afd-dd0af40f102a" />
 
