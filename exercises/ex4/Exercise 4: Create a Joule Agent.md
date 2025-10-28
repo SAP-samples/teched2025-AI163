@@ -64,15 +64,15 @@ The prompts from the user could be in any order, evaluate the right tool to be u
 <br>Enter the below details:
 <br><br>Tool name: ‘Carrier Selection Guide'
 <br>Description: ‘Internal guidelines required by the agent to select cheapest carrier based on the costs provided in the document. It covers the carrier selection guide as a table with all possible carriers for the given source and destination location.’
-<br>Destination variable: AICore
-<br>Resource Group ID: MyResourceGroup
-<br>Collection ID: 05af5860-a616-4ae0-ae39-bacff6d90a61
-<br><br>Click on Apply button
+<br>-Destination variable: AICore
+<br>-Resource Group ID: MyResourceGroup
+<br>-Collection ID: 05af5860-a616-4ae0-ae39-bacff6d90a61
+<br><br>--Click on Apply button
 
-<img width="1789" height="811" alt="image" src="https://github.com/user-attachments/assets/d720f40e-502b-4af9-afc8-57e1c9cb298f" />
+<img width="1800" height="852" alt="image" src="https://github.com/user-attachments/assets/df782a69-4811-4c9a-a5ec-03df27ed48ab" />
 
 
-
+<br>
 Save the Agent
 
 
