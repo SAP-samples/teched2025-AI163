@@ -86,4 +86,4 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 <br><br>12: Save your Joule Skill. :white_check_mark:
 
 - [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
-- <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
