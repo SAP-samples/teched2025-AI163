@@ -2,7 +2,7 @@
 <br> Once the Agent is created, user can test it in a private environment. 
 
 <br>Before we begin testing, we need to creat an Destination Environment variable for Ai Core. 
-<br>Click the Settings icon in the top-right corner of the agent page, as shown in the screenshot:
+<br>Click the Settings icon in the top-right corner of the Jole Package, as shown in the screenshot:
 <img width="1798" height="670" alt="image" src="https://github.com/user-attachments/assets/399ac844-ddcb-4fe4-9e45-9ae6628d5144" />
 
 <br>Click on 'Environment Variables' and then the Create button
@@ -13,13 +13,14 @@
 <br>-Identifier: AiCore
 <br>-Description: Destination for AI Core 
 <br>-Type: Destination
+<br>Followed by "Create"
 <img width="1781" height="799" alt="image" src="https://github.com/user-attachments/assets/5139c4b5-d540-4266-9c41-3e8b3071d400" />
 
 <br>Now click on the Agent once again - to test the Agent, follow the below steps:
-<br>1: Click on the Test button on the right top corner of the Agent builder.
+<br>1: Click on the Test button on the right top corner of the Agent Builder.
 <br>2: In the pop-up screen, provide the details:
-<br>$$\color{blue}{Environment}$$: Choose your __userid_ related environment
-<br>$$\color{blue}{AICore}$$: included-ai-core
+<br>Environment: Choose your __userid_ related **Private** environment
+<br>AICore: included-ai-core
 <br>PostToGTT: gttwriteservice
 <br>GetFromGTT: gttGetService
 <img width="1790" height="858" alt="image" src="https://github.com/user-attachments/assets/ef0350ed-7d3c-4fe3-bcd9-9ab55a6c54f4" />
