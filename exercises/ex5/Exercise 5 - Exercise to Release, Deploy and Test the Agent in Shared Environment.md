@@ -79,16 +79,18 @@ Navigate to Control Tower from you build lobby and to the Environments section
 
 3. Click on the **Joule** tab.  
 4. Click **Launch** to open the **Joule Assistant**.  
-5. Enter the same prompts used during testing in the **Private Environment** (see [Exercise 6 – Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AD169/blob/main/exercises/ex6/README.md)) to validate the behavior in the shared setup.
+5. Enter the same prompts used during testing in the **Private Environment** (see [Exercise 4.1 – Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)) to validate the behavior in the shared setup.
+
+<img width="1795" height="502" alt="image" src="https://github.com/user-attachments/assets/00e848fa-a6d5-4f19-8351-4dcdba54de0c" />
 
 ---
 
 ### ✅ Result
 You have now:
-- Released and deployed your **Warehouse Workforce Optimization Agent** to a shared environment.  
+- Released and deployed your **Logistics Agent** to a shared environment.  
 - Verified end-to-end agent behavior with shared API destinations.  
 - Confirmed that the same process applies for **Joule Production Deployments**, ensuring consistency across environments.  
-- Completed your **Agentic Warehouse Operations** setup, ready for collaborative and scalable use.
+- Completed your **Logistics Agent** setup, ready for collaborative and scalable use.
 
 
 
@@ -97,5 +99,4 @@ You’ve now mastered the **complete Joule Agent Lifecycle** — from private de
 
 👏 Fantastic work — you’ve officially reached the finish line of this TechEd exercise series
 
-➡️ **Next Step:** [Return to the Exercise Overview](https://github.com/SAP-samples/teched2025-AD169.git)
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
