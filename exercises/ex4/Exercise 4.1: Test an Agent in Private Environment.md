@@ -38,7 +38,7 @@
 <br>  3.2:  Provide the requested inputs 
 <br>**Prompt**:
 "
-Shipment ID: 610005250
+Shipment ID: 61000<userID>
 Source Location: SFO
 Destination Location: NYC
 Pick-up Date and Time: 2025-10-26T16:58:01Z
@@ -48,29 +48,28 @@ Pick-up Date and Time: 2025-10-26T16:58:01Z
 <img width="1791" height="813" alt="image" src="https://github.com/user-attachments/assets/c842a81c-a3be-4837-9fee-8045d3090b1b" />
 
 
-
-
-<br><br>4: In the Joule Assistant, provide the below prompts to test:
-<br>  3.1: **Prompt**: 
+<br><br>
+<br>  4: **Prompt**: 
 <br>“Suggest the best carriers from SFO to NYC”
 <br>**Result**:Joule propose the carriers based on the carrier rates document uploaded in AI Core.
-. 
+
 
 <img width="458" height="276" alt="image" src="https://github.com/user-attachments/assets/dd4bb5d9-58a0-4c10-ae10-0eaa77b66dcd" />
 
 
 
-<br>  4.2:  Provide the requested inputs 
-<br>**Prompt**:
-"
-Shipment ID: 610005250
-Source Location: SFO
-Destination Location: NYC
-Pick-up Date and Time: 2025-10-26T16:58:01Z
-"
+<br>  5: **Prompt**:
+"I would like to find all the delayed shipments"
 
-<br>**Result**: Joule responds with the success message you created earlier along with the shipment number and link to the GTT system 
-<img width="1791" height="813" alt="image" src="https://github.com/user-attachments/assets/c842a81c-a3be-4837-9fee-8045d3090b1b" />
+<br>**Result**: Joule responds with Display a list of shipments with Delayed status in the GTT system
+<img width="580" height="350" alt="image" src="https://github.com/user-attachments/assets/1ecae1c1-2d46-48ef-8a45-b2cc799a8367" />
+
+<br>  6: **Prompt**:
+"I want to track the shipment 610005250"
+
+<br>**Result**: Joule responds with tracking info of the shipment in the GTT system
+
+<img width="601" height="481" alt="image" src="https://github.com/user-attachments/assets/2e244478-c62f-4074-97c4-3ccd3af7cb42" />
 
 
 
