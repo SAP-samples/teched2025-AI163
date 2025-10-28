@@ -108,9 +108,10 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <img width="1793" height="860" alt="image" src="https://github.com/user-attachments/assets/13a31447-f19b-4ddb-b7f2-f88b86792574" />
 
 
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+
 
 <br><br>12: Save your Joule Skill. :white_check_mark:
 
 
 - [Exercise 3.1.3 - Create the final Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
+- <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
