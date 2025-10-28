@@ -32,8 +32,8 @@ On the Condition step, click on <img width="20" height="20" alt="image" src="htt
 the button to expand the condition and view the condition branches. i.e. Branch 1 and Branch 2
 <img width="1531" height="651" alt="image" src="https://github.com/user-attachments/assets/f1ed4f7f-ef72-4dc1-8c2e-f1a085062163" />
 
-
+<br><br>Click on the Save button to save the Joule skill.
 
 <br> <br>  - [Next Exercise - > Exercise 3.1.3b - Add Send Message steps in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
-<br><br>Click on the Save button to save the Joule skill.
+
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
