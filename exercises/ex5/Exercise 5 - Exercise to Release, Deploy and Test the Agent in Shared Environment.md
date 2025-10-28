@@ -71,7 +71,7 @@ Navigate to Control Tower from you build lobby and to the Environments section
 ### 7.2 – Test the Deployed Project in the Shared Environment
 
 1. Navigate to **Control Tower → Environments**.  
-   ![Control Tower](https://github.com/user-attachments/assets/739717df-e7c6-4690-a3f6-dead30ceef21)
+<img width="1790" height="790" alt="image" src="https://github.com/user-attachments/assets/4fb77b80-a21f-4b7c-a608-0d098e856dd3" />
 
 2. Search for and open the **Shared Environment** where your project was deployed.  
 <img width="1797" height="439" alt="image" src="https://github.com/user-attachments/assets/e2f25742-d7ff-4084-92fd-d627dcb34f2c" />
