@@ -7,13 +7,18 @@ We will now create our second Joule Skill in a similar way as the previous secti
 ### <img width="15" height="25" alt="image" src="https://github.com/user-attachments/assets/4492da9e-a2d9-49d9-a30e-855f7c3663a0" /> Second Joule Skill: Track Shipment 
 This Joule Skill is used to track a shipment in the SAP Business Networks GTT System
 <br><br>  1: Click on Create button and choose ‘Joule Skill’
-<img width="1787" height="717" alt="image" src="https://github.com/user-attachments/assets/70cf8d0d-43c7-4cc8-acb3-5a973d365521" />
+<img width="3574" height="1434" alt="image" src="https://github.com/user-attachments/assets/a492019e-f68d-4754-82dd-33cbe3aa1524" />
+
 
 
 <br><br> 2: Enter the name and Description 
-<br> - Name: Track Shipment
-<br> - Description: A skill to track shipments in the GTT System.
-<br> Click on ‘Create’ button
+| Field         | Value                                     |
+|---------------|-------------------------------------------|
+| **Name**        | `Track Shipment`                  |
+| **Description** | `A skill to track shipments in the GTT System.` |
+
+* Click on ‘Create’ button
+  
 > [!Note]
   > - The Identifier is autopoulated based on the Skill name
 <img width="1794" height="847" alt="image" src="https://github.com/user-attachments/assets/1c19b82c-c9cd-4f16-94f2-5daa60592ae4" />
@@ -25,7 +30,8 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 
 
 <br><br>5: Click on the ‘Parameters’ tab and expand the section ‘Skill Inputs’. Click on the ‘Configure’ button to configure the skill inputs.
-<img width="1797" height="608" alt="image" src="https://github.com/user-attachments/assets/82ff9a2c-ef7d-4a15-9f1e-b826de24ee88" />
+<img width="3594" height="1216" alt="image" src="https://github.com/user-attachments/assets/a036c07a-277e-400b-a2ac-7a163e05a23c" />
+
 
 
 <br><br>6: Click on the 'Add Input' button and add the following Inputs with Description. 
