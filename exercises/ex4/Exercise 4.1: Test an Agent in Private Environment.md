@@ -1,20 +1,6 @@
 ## Exercise 4.1: Test an Agent in Private Environment
 <br> Once the Agent is created, user can test it in a private environment. 
 
-<br>Before we begin testing, we need to creat an Destination Environment variable for Ai Core. 
-<br>Click the Settings icon in the top-right corner of the Jole Package, as shown in the screenshot:
-<img width="1798" height="670" alt="image" src="https://github.com/user-attachments/assets/399ac844-ddcb-4fe4-9e45-9ae6628d5144" />
-
-<br>Click on 'Environment Variables' and then the Create button
-
-<img width="1783" height="798" alt="image" src="https://github.com/user-attachments/assets/989661f9-aea0-469f-9580-90a214749c47" />
-
-<br>Input the following Values 
-<br>-Identifier: AiCore
-<br>-Description: Destination for AI Core 
-<br>-Type: Destination
-<br>Followed by "Create"
-<img width="1781" height="799" alt="image" src="https://github.com/user-attachments/assets/5139c4b5-d540-4266-9c41-3e8b3071d400" />
 
 <br>Now click on the Agent once again - to test the Agent, follow the below steps:
 <br>1: Click on the Test button on the right top corner of the Agent Builder.
