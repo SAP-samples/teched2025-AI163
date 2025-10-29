@@ -14,7 +14,7 @@
 
 > [!IMPORTANT]
 > **You must use your unique UserID.**
-> Before filling in the fields, note that you need to replace `<UserID>` with your assigned user number (e.g., if your user is `T-AI163-050`, you would use `T-AI163-050`). This is crucial for uniquely identifying your project.
+> Before filling in the fields, note that you need to replace `<UserID>` with your assigned user number (e.g., if your user is `T-AI163-050`, you would use `T-AI163-050`, make a note of this in noptepad for later reference ). This is crucial for uniquely identifying your project.
 
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
