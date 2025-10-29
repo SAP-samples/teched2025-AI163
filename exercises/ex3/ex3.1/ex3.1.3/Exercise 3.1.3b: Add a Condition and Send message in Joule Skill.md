@@ -46,6 +46,7 @@
 <img width="1550" height="665" alt="image" src="https://github.com/user-attachments/assets/2b9295c1-c0f0-4e0e-b2b1-e61b20d4a00c" />
 <br>
 2. We will now replicate these steps for the 'Shipment Update Message' in Branch 2 with a change in few fields as per the table below:
+  
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
@@ -54,6 +55,7 @@
 | Illustration      | Success Check Mark  |
 
 * In the Action Button section, Click on Add Button and enter the values from the table below:
+  
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Title                   | 'View Shipment'|
