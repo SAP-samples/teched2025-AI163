@@ -25,8 +25,8 @@
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
-| Title                   | 'Success'|
-| Text        | 'Shipment Id ${context.startEvent.shipmentid} created successfully in GTT'  |
+| Title                   | `Success`|
+| Text        | `Shipment Id ${context.startEvent.shipmentid} created successfully in GTT`  |
 | Illustration      | Success High Five  |
 
 <img width="1549" height="844" alt="image" src="https://github.com/user-attachments/assets/609ba0dc-3449-4617-9d26-aa85afef4e2b" />
@@ -34,8 +34,8 @@
 * In the Action Button section, Click on Add Button and enter the values from the table below:
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
-| Title                   | 'View Shipment'|
-| url        | https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts  |
+| Title                   | `View Shipment`|
+| url        | `https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts`  |
 
 > [!WARNING]
 > You will not be able to directly access the GTT system due to restricted Authorization. Ask your trainer to show you the created shipment in the GTT system. 
@@ -50,8 +50,8 @@
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
-| Title                   | 'Carrier Updated'|
-| Text        | 'Shipment Id ${context.startEvent.shipmentid} created successfully in GTT'  |
+| Title                   | `Carrier Updated`|
+| Text        | `Shipment Id ${context.startEvent.shipmentid} created successfully in GTT`  |
 | Illustration      | Success Check Mark  |
 
 * In the Action Button section, Click on Add Button and enter the values from the table below:
