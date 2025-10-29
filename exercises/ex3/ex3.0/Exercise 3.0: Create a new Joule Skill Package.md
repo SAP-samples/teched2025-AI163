@@ -1,7 +1,8 @@
 # Ex. 3.0 - Create a new Joule Skill Package
 
 1.  From the SAP Build Lobby, click the **Create** button.
-    <img width="1794" height="740" alt="image" src="https://github.com/user-attachments/assets/baa3d4e4-458b-4e39-bae4-8647926c952c" />
+<img width="1800" height="761" alt="image" src="https://github.com/user-attachments/assets/8ba4fb12-b906-4b6b-8640-081e5b0b2d00" />
+
 
 2.  On the next screen, select the **Build and Automate** tab, choose the **Joule Skill** tile, and click **Next**.
     <img width="1967" height="1238" alt="image" src="https://github.com/user-attachments/assets/ba884ee2-8ee2-406f-ba6f-613b01abf43d" />
