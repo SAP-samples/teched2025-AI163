@@ -92,4 +92,4 @@ This step configures a similar illustrated message with the title "Carrier Updat
 
 ➡️ [Next Exercise: Ex. 4 - Create a Joule Agent!](../../../ex4/ex4-create-joule-agent.md)
   
-<br> <br>  - [Back To Landing Page](../../README.md)
+<br> <br>  - [Back To Landing Page](../../../README.md)

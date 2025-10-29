@@ -144,4 +144,4 @@ The exercise follows a similar approach to the previous skill and includes these
 <br> Once created, this skill allows users to track any specific shipment in the GTT system by providing a tracking ID.
 
 ➡️ [Ex. 3.1.3 - Create the final Joule Skill](../ex3.1.3/ex3.1.3-create-create-shipment-skill-1.md)
-<br> <br>  - [Back To Landing Page](../../README.md)
+<br> <br>  - [Back To Landing Page](../../../README.md)

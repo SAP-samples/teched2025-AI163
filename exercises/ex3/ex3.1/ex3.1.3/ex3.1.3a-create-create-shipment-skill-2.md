@@ -85,4 +85,4 @@ Finally, click **Save** to store the completed Joule Skill configuration.
 
 ➡️ [Next Exercise - > Ex. 3.1.3b - Add Send Message steps in Joule Skill](ex3.1.3b-create-create-shipment-skill-3.md)
 
-<br> <br>  - [Back To Landing Page](../../README.md)
+<br> <br>  - [Back To Landing Page](../../../README.md)

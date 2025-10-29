@@ -105,4 +105,4 @@ The page concludes with a link to the next exercise, which focuses on mapping th
 
   
 ➡️ [Next Exercise - > Ex. 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs](ex3.1.3a-create-create-shipment-skill-2.md)
-<br> <br>  - [Back To Landing Page](../../README.md)
+<br> <br>  - [Back To Landing Page](../../../README.md)
