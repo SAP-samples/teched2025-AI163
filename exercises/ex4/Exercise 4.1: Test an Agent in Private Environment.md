@@ -46,6 +46,10 @@ Pick-up Date and Time: 2025-10-28T10:00:00Z
 
 
 <br>:full_moon: **Result**: Joule responds with the success message you created earlier along with the shipment number and link to the GTT system 
+
+> [!WARNING]
+> You will not be able to directly access the GTT system due to restricted Authorization. Ask your trainer to show you the created shipment in the GTT system. 
+
 <img width="1791" height="813" alt="image" src="https://github.com/user-attachments/assets/c842a81c-a3be-4837-9fee-8045d3090b1b" />
 
 
