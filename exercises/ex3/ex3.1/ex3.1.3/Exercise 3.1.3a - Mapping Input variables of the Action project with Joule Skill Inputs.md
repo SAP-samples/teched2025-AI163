@@ -1,22 +1,31 @@
 ## Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs
-<br> 1: Select the Action in the Skill Builder and click on Inputs tab to map the skill inputs to action call inputs. Scroll through and locate the fields shown in the table below and click on the fields. The skill content list will open on the left. As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
+
+<br>
+
+### 1. Mapping Skill Inputs
+<br>Select the Action in the Skill Builder and click on Inputs tab to map the skill inputs to action call inputs. 
+* Scroll through and locate the fields shown in the table below and click on the fields.
+* The skill content list will open on the left.
+* As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
 <img width="1796" height="810" alt="image" src="https://github.com/user-attachments/assets/3f020e15-329a-4993-a0eb-40c90a2c26e3" />
+
 > [!Note]
-  > - Replace the texts in $${\color{red}Red}$$ with the skill input in the expression editor as done in previous sections
+  > - Replace the texts in between **<** **>** with the skill input in the expression editor as done in previous sections
+
 
 | Field Name              | Mapped Path                 | Value |
 |--------------------------|-----------------------------|-----------|
-| actualBusinessTimestamp  | Apply Formula    | DateTimeFromISO($${\color{red}Skill Input>datetime}$$) |
-| altKey                   | Apply Formula| ConcatenateStrings(["xri://sap.com/id:LBN#10010002478:EWWCLNT220:FT1_SHIPMENT:", $${\color{red}Skill Input>shipmentid}$$], "")|
+| actualBusinessTimestamp  | Apply Formula    | ```DateTimeFromISO(<Skill Input>datetime>)``` |
+| altKey                   | Apply Formula| ```ConcatenateStrings(["xri://sap.com/id:LBN#10010002478:EWWCLNT220:FT1_SHIPMENT:", <Skill Input>shipmentId>], ""```)|
 | arrivalLocationId        | Skill Inputs > destlocation | |
 | departureLocationId      | Skill Inputs > srclocation  | |
-| plannedArrivalDateTime   | Static  | 2025-12-28T10:00:00Z |
-| plannedDepartureDateTime | Apply Formula   | DateTimeFromISO($${\color{red}Skill Input>datetime}$$) |
+| plannedArrivalDateTime   | Static  | ```2025-12-28T10:00:00Z``` |
+| plannedDepartureDateTime | Apply Formula   | ```DateTimeFromISO(<Skill Input>datetime>)``` |
 | serviceAgentLbnId        | Skill Inputs > carrier      | |
 | shipmentNo               | Skill Inputs > shipmentid   | |
 <br>
 
-### Create A Condition Branch
+### 2. Create A Condition Branch
 <br>We will now create a condition branch in the Skill builder to check if a carrier exists for the shipment (update) or we are creating a fresh shipment without a carrier. 
 
 <br>In the skill builder click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button *after* the Action step and select 'Condition Check'
