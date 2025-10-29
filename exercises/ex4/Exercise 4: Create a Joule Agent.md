@@ -21,7 +21,7 @@ This allows the Joule Agent to connect with the AI Core environment for document
 * Followed by "Create"
 <img width="1781" height="799" alt="image" src="https://github.com/user-attachments/assets/5139c4b5-d540-4266-9c41-3e8b3071d400" />
 
-
+<br>
 
 2. In the overview page of the project, click on the drop down Create and choose Joule Agent
 
@@ -38,6 +38,7 @@ This allows the Joule Agent to connect with the AI Core environment for document
 * Click on 'Create'
 <img width="3538" height="1298" alt="image" src="https://github.com/user-attachments/assets/2aadd9a6-3717-4f81-b557-22596d213e2c" />
 
+<br>
 <br>
 
 3. In the Agent builder, enter the details as below:<br>
@@ -84,7 +85,7 @@ Display all carriers list as card or a selection list for the user to clearly se
 ```
 <img width="1800" height="808" alt="image" src="https://github.com/user-attachments/assets/b33e3dfd-cbbb-4676-b9ac-bda65c2a4132" />
 
-<br>
+<br><br>
 
 4. Choose the remaining options according to the table below:
   
@@ -102,13 +103,14 @@ Display all carriers list as card or a selection list for the user to clearly se
 <img width="1775" height="767" alt="image" src="https://github.com/user-attachments/assets/f1926b54-788c-4b91-91ef-a76bec7e73b5" />
 
 
-<br>
+<br><br>
+
 5. In the Tools Section, add the following joule skills as tools to the agent:
 * Click on ‘Add Tool’ and click on ‘Joule Skill’. A pop-up window with available joule skills in the project is displayed.
 * Choose one by one and click on ‘Add’ button.
 <img width="1797" height="898" alt="image" src="https://github.com/user-attachments/assets/16feaee2-b821-4ce0-94cf-3bea0ccb489d" />
 
-<br>
+<br><br>
 
 6. **Document Grounding**: In the ‘Tools’ Section, add ‘Documents’ as Tools:
 * Click on ‘Add Tool’ -> ’Documents’
