@@ -4,6 +4,9 @@
 
 
 * Now click on the Agent once again - to test the Agent, follow the below steps:
+  
+> [!NOTE]
+> If this step fails for any reason, refresh the entire page, Open the Agent and try again.
 
 <br>1. Click on the Test button on the right top corner of the Agent Builder.
 <br>2. In the pop-up screen, provide the details:
@@ -19,8 +22,6 @@
 
 * Click on Test
   
-> [!NOTE]
-> If this step fails for any reason, refresh the entire page, Open the Agent and try again. 
 
 <br><br>3. In the Joule Assistant, provide the below prompts to test:
 
