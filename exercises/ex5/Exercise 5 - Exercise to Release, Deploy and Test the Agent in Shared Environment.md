@@ -67,7 +67,7 @@ Releasing and deploying your project to a **Shared Environment** allows:
 
 
 * Click **Deploy**.
-* 
+  
 > [!NOTE]
 > If this step fails for any reason, refresh the entire page and try again.
 
@@ -79,15 +79,18 @@ Releasing and deploying your project to a **Shared Environment** allows:
 
 4. Test the Deployed Project in the Shared Environment
 
-1. Navigate to **Control Tower → Environments**.  
+* Navigate to **Control Tower → Environments**.  
 <img width="1790" height="790" alt="image" src="https://github.com/user-attachments/assets/4fb77b80-a21f-4b7c-a608-0d098e856dd3" />
 
-2. Search for and open the **Shared Environment** where your project was deployed.  
+* Search for and open the **Shared Environment** where your project was deployed.  
 <img width="1797" height="439" alt="image" src="https://github.com/user-attachments/assets/e2f25742-d7ff-4084-92fd-d627dcb34f2c" />
 
 
-3. Click on the **Joule** tab.  
-4. Click **Launch** to open the **Joule Assistant**.  
+* Click on the **Joule** tab.  
+* Click **Launch** to open the **Joule Assistant**.
+> [!NOTE]
+> In case you do not see the Joule tab, it could be due to yur screen resolution. Click the menue button at the end ( 3 vertical dots) to find Joule.
+
 5. Enter the same prompts used during testing in the **Private Environment** (see [Exercise 4.1 – Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)) to validate the behavior in the shared setup.
 
 <img width="1795" height="502" alt="image" src="https://github.com/user-attachments/assets/00e848fa-a6d5-4f19-8351-4dcdba54de0c" />
