@@ -30,5 +30,5 @@
 
 ---
 
-- **➡️ [Next: Ex. 3.1.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)**
+➡️ [Next: Ex. 3.1.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
 - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
