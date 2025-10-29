@@ -14,8 +14,11 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 
 
 <br><br> 2: Enter the name and Description 
-<br> - Name: Get Delayed Shipments
-<br> - Description: A skill to get all delayed shipments from the GTT system.
+| Field         | Value                                     |
+|---------------|-------------------------------------------|
+| **Name**        | `Get Delayed Shipments`                  |
+| **Description** | ` A skill to get all delayed shipments from the GTT system` |
+
 <br> Click on ‘Create’ button
 > [!Note]
   > - The Identifier is autopoulated based on the Skill name
