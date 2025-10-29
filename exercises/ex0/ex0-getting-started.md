@@ -6,10 +6,6 @@
     - [Tenant Login](https://ai-agent-beta-build-default-eu12-ai163.eu12.build.cloud.sap/lobby)
 
 
-> [!IMPORTANT]
-> **Change Your Password**
->- You will be prompted to change your password upon first login. Please create a new password that meets the on-screen criteria.
-
 3.  **Login Success**: Once logged in, you will see the SAP Build Lobby.
     <img width="1878" height="867" alt="image" src="https://github.com/user-attachments/assets/ccf8908a-9ce1-4716-a39c-7c5417a85545" />
 

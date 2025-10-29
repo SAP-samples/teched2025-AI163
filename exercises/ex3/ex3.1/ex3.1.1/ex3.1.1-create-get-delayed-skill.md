@@ -71,8 +71,9 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 <img width="1790" height="850" alt="image" src="https://github.com/user-attachments/assets/79f00018-3f51-49ed-b404-042910d48a65" />
 
 * Input the following formula in the Formula Editor and click on 'Apply'.
+```plaintext
 ConcatenateStrings(["delayStatus eq ", true, ""], "")
-
+```
 
 <img width="3590" height="1694" alt="image" src="https://github.com/user-attachments/assets/fd36e993-1b0d-445c-a76c-082dd86728e7" />
 
