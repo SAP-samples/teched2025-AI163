@@ -43,7 +43,7 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 | 1 | trackingID     | trackingiD     | Tracking Number              | ✅ |
 
 
-<br>Once all inputs are added, click on ‘Apply’ button.
+* Once all inputs are added, click on ‘Apply’ button.
 <img width="1791" height="800" alt="image" src="https://github.com/user-attachments/assets/d37a27da-593c-41cc-aef0-96bfc1d154a8" />
 
 
@@ -63,36 +63,42 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 
 
 
-<br><br>7: Once the action call is added, click on it so that a right panel opens for mapping Input parameters & creating the Destination variable to read data from the GTT system
+<br><br>10: Once the action call is added, click on it so that a right panel opens for mapping Input parameters & creating the Destination variable to read data from the GTT system
 <img width="1788" height="621" alt="image" src="https://github.com/user-attachments/assets/31ebab5c-47fb-47fa-b565-2488f0f553df" />
 
 
 
-<br><br>8: Since we are again reading shipment from the GTT system, we will reuse the same Destination variable 'GetFromGTT'
+<br><br>11: Since we are again reading shipment from the GTT system, we will reuse the same Destination variable 'GetFromGTT'
 
 
 <img width="1794" height="738" alt="image" src="https://github.com/user-attachments/assets/c81d074b-f3cf-4d89-874d-92fc068b65b3" />
 
 
-<br><br>9: We will now add filter criteria as input to Action to fetch the delayed shipments. Click on the Action and select the Input tab on the right pane. 
-<br>Click on the $filter input area and select the <img width="100" height="25" alt="image" src="https://github.com/user-attachments/assets/97985dd3-212e-4ea3-9a00-a61302b9107b" /> option which will take you to the Formula Editor.
+<br><br>12: We will now add filter criteria as input to Action to fetch the delayed shipments. Click on the Action and select the Input tab on the right pane. 
+* Click on the $filter input area and select the <img width="100" height="25" alt="image" src="https://github.com/user-attachments/assets/97985dd3-212e-4ea3-9a00-a61302b9107b" /> option which will take you to the Formula Editor.
 <img width="1790" height="679" alt="image" src="https://github.com/user-attachments/assets/ad14784f-f1b7-4e04-9ff7-075224d5de99" />
 
 
-<br><br> Input `ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")` in the formual editor. Replace [Tracking ID] with the trackingID Input from the left pane by double clicking on it and click on 'Apply'
+* Input `ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")` in the formual editor. Replace [Tracking ID] with the trackingID Input from the left pane by double clicking on it and click on 'Apply'
 <img width="1791" height="835" alt="image" src="https://github.com/user-attachments/assets/3bb0b34c-9e2c-4625-8199-32184c776661" />
-![2025-10-24_16-16-00 (1)](https://github.com/user-attachments/assets/6c8046e6-716f-40cc-82d5-51df2b4d3ae3)
+<br>
 
-<br><br>11: Finally, we will now create  output parameters for the Joule Skill and map the Action output to them. 
+![Formula](https://github.com/user-attachments/assets/dcf60744-c3ff-4c87-8e76-658cdaea960e)
+
+
+
+
+<br><br>13: Finally, we will now create  output parameters for the Joule Skill and map the Action output to them. 
 <br>Click anywhere in the Skill Builder's grey area and click on the <img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/ee9b22ee-e035-4324-8cda-e9a8c43a4e84" /> button on the right to show the Skill meta data
 <img width="1791" height="680" alt="image" src="https://github.com/user-attachments/assets/6f0cc684-7825-45d2-8a25-79da1caf5e6c" />
 
 
-<br>Click on the Parameters tab to show the Input & Output parameters. 
-<br>Click on the Configure button next to the Skill Outputs 
+* Click on the Parameters tab to show the Input & Output parameters.
+* Click on the Configure button next to the Skill Outputs
+  
 <img width="1798" height="643" alt="image" src="https://github.com/user-attachments/assets/77841505-85e8-4b58-be6b-c2f9ff2bc5fe" />
 
-<br><br>Click on the 'Add Ouput' button and add the following Onputs with Description. 
+* Click on the 'Add Ouput' button and add the following Ouputs with Description. 
 > [!Note]
   > - All the Identifiers are entered automatically and will be same as ‘Name’ field
 
@@ -111,13 +117,31 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 | destinationcity    | arrivalLocationId | getReadquery > result > d > list - results > arrivalLocationId |
 | gttstatus      | eventStatus_code     | getReadquery > result > d > results > plannedEvents > list - results > eventStatus_code |
 | json           | result           | getReadquery > result |
-<img width="1793" height="860" alt="image" src="https://github.com/user-attachments/assets/13a31447-f19b-4ddb-b7f2-f88b86792574" />
-
+<img width="3586" height="1720" alt="image" src="https://github.com/user-attachments/assets/17d4aeb3-8389-48ad-a7dd-0f04092fc7d3" />
 
 
 
 <br><br>12: Save your Joule Skill. :white_check_mark:
 
 
-- [Exercise 3.1.3 - Create the final Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
+# Summary — Exercise 3.1.2: Create the Second Joule Skill
+
+This page explains how to create the **second Joule Skill** in the SAP **Joule Skill Package**, named **“Track Shipment.”**  
+The purpose of this skill is to **track a specific shipment** in the **SAP Business Network Global Track and Trace (GTT)** system using its tracking ID.
+
+The exercise follows a similar approach to the previous skill and includes these main steps:
+
+- Creating a new **Joule Skill** called `Track Shipment` with a suitable description.  
+- Defining an **input parameter** named `trackingID` to capture the shipment tracking number.  
+- Adding an **action call** to the previously used `getReadquery` Action from the GTT system.  
+- Reusing the existing **destination variable** (`GetFromGTT`) for system connectivity.  
+- Configuring a **filter formula** in the Formula Editor to retrieve shipment details based on the tracking ID:
+  ```plaintext
+  ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")
+- Defining multiple output parameters to return shipment details
+- Mapping the action outputs to these parameters, including the appropriate data paths for each field.
+
+<br> Once created, this skill allows users to track any specific shipment in the GTT system by providing a tracking ID.
+
+- ➡️ [Exercise 3.1.3 - Create the final Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
