@@ -1,5 +1,4 @@
-## Exercise 3: 💡 Understanding Joule Skills
-
+# Ex. 3: 💡 Understanding Joule Skills
 
 **Joule Skills** are modular components within SAP’s conversational AI framework, designed to execute **atomic, predefined operations** within a business context.Each skill performs a single task — such as retrieving data, triggering transactions, or querying systems — based on structured inputs and deterministic logic. Their purpose is to streamline repetitive, rule-based activities by providing a **fast, reliable, and reusable automation mechanism**.
 
@@ -20,17 +19,34 @@ While they can understand conversation context, their logic is **non-adaptive** 
 
 
 
-## 🧩 Create a new Joule Skill package
+## 🧩 Build Your Joule Skills
 
-In this section you will create Joule skill, Map Input to the Skill, Add a Send Message and Configure the Output parameters
-- [Exercise 3.0 - Create Joule Skill Package](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)
->  - [Exercise 3.1.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
->  - [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
->  - [Exercise 3.1.3 - Create your last Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md#exercise-313----create-your-last-joule-skill)
->>  - [Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3a%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
->>  - [[Exercise 3.1.3b - Add Send Message steps in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b%3A%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
-- [Exercise 4 - Create a Joule Agent](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204%3A%20Create%20a%20Joule%20Agent.md)
->  - [Exercise 4.1: Test an Agent in Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
->  - [Exercise 5 – Release, Deploy, and Test the Project in a Shared Environment](https://github.com/SAP-samples/teched2025-AI163/edit/main/exercises/ex5/Exercise%205%20-%20Exercise%20to%20Release%2C%20Deploy%20and%20Test%20the%20Agent%20in%20Shared%20Environment.md)
+In the next series of exercises, you will:
+1.  Create a new Joule Skill Package to hold your work.
+2.  Build three distinct Joule Skills: one for getting delayed shipments, one for tracking a shipment, and one for creating a shipment.
+3.  Configure the inputs, outputs, and logic for each skill.
+
+---
+
+- **➡️ [Start Building: Ex. 3.0 - Create a new Joule Skill Package](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)**
+
+---
+
+<details>
+<summary><strong>Skill-Building Exercises (Full List for Reference)</strong></summary>
+
+  - [Ex. 3.0 - Create a new Joule Skill Package](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)
+  - **Get Delayed Shipments Skill**
+    - [Ex. 3.1.1 - Build the "Get Delayed Shipments" Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
+  - **Track Shipment Skill**
+    - [Ex. 3.1.2 - Build the "Track Shipment" Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
+  - **Create Shipment Skill**
+    - [Ex. 3.1.3 - Part 1: Configure Inputs](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
+    - [Ex. 3.1.3a - Part 2: Map Action Variables](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3a%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
+    - [Ex. 3.1.3b - Part 3: Add Conditional Messages](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b%3A%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
+
+</details>
+
+---
   
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)

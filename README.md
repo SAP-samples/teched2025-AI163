@@ -1,19 +1,25 @@
-# AI163 -  Get hands-on to extend Joule and build AI Agents 
+> [!IMPORTANT]
+> **Welcome to the Agent Builder Lab Preview!**
+>
+> You are working with a **pre-release version** of the Agent Builder in Joule Studio. This gives you an early look at our upcoming capabilities. Please keep the following in mind:
+>
+> *   **Features Are Subject to Change:** The user interface (UI), terminology, and functionalities you see in this lab may differ from the final, generally available (GA) product.
+> *   **For Educational Use Only:** This environment is designed for learning and experimentation, not for production use.
+> *   **Potential Instability:** As a preview version, you may encounter occasional instability or minor bugs. The exercises are designed to work with the current state of the platform. If you get stuck, please notify a session instructor.
+
+# AI163 - Get hands-on to extend Joule and build AI Agents
 
 ## Description
 
-This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage  shipments in the SAP Business Networks Global Track and Trace (GTT) system. The agent can create shipments, get delayed shipment details and even tracking details of existing shipment. It uses Document Grounding to read a shipment rate card document and determine the most economically viable shipment carrier based on their rates, source location and destination location while creating a shipment.
+This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage shipments in the SAP Business Networks Global Track and Trace (GTT) system. The agent can create shipments, get delayed shipment details, and even track details of existing shipments. It uses Document Grounding to read a shipment rate card document and determine the most economically viable shipment carrier based on their rates, source, and destination locations while creating a shipment.
 
 ## Overview
 
-### Busiess problem and persona   
+### Business problem and persona
 
 Before diving into the use case, let's take a moment to get acquainted with our business user. It's really important to understand the business user as thoroughly as possible before building your custom Joule Agent.
 
-Meet George, a Logistics Coordinator at a global manufacturing company.
-
-Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using SAP Business Networks Global Track and Trace — or GTT for short.
-His job is to ensure that every delivery — from raw materials to finished goods — reaches the customer on time and in full. 
+Meet George, a Logistics Coordinator at a global manufacturing company. Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using SAP Business Networks Global Track and Trace — or GTT for short. His job is to ensure that every delivery — from raw materials to finished goods — reaches the customer on time and in full.
 
 #### Persona — Logistics Coordinator
 <img width="747" height="432" alt="image" src="https://github.com/user-attachments/assets/d955078e-3896-4a28-b504-6a330525b36e" />
@@ -21,49 +27,61 @@ His job is to ensure that every delivery — from raw materials to finished good
 #### Pain Points — Logistics Coordinator
 <img width="741" height="468" alt="image" src="https://github.com/user-attachments/assets/edaf66c0-fcd0-4b49-aac9-143a6e96e8a4" />
 
-### You will buid a goal-driven Joule Agent in Joule Studio that: 
+### You will build a goal-driven Joule Agent in Joule Studio that:
 
-- Understands a natural-language request on the Shipment related activities.
-- Create, Track & get a list of Delayed shipments.
-- Empower George to do his job more efficently.
-
+- Understands natural-language requests on Shipment-related activities.
+- Can create, track, and get a list of delayed shipments.
+- Empowers George to do his job more efficiently.
 
 ## Requirements & Prerequisites - already in place
 
-1. Joule Studio in SAP Build 
-    - Joule Studio with Agent Builder is enabled and accessible.
-      
-2.  Actions & Destinations
-    - SAP Build Action projects - "GTTReadService" & "GTTShipment" to access the SAP Business Networks GTT System via the destinations mentioned below.
-    -  BTP Destination "gttwriteservice" & "gttGetService" made available in SAP Build via Control Tower. 
- 
-3. SAP AI Core for document grounding 
+All required backend systems and configurations have been pre-provisioned for this session. This includes:
 
-    - Resource group created and assigned.
-    - Document grounding pipeline set up and running.
+1.  **Joule Studio in SAP Build**:
+    - Agent Builder is enabled and accessible.
 
-## Exercises
+2.  **Actions & Destinations**:
+    - SAP Build Action projects (`GTTReadService` & `GTTShipment`) are pre-built to access the SAP Business Networks GTT System.
+    - BTP Destinations (`gttwriteservice` & `gttGetService`) are available in SAP Build.
 
-<br> Below are the exercises. Please follow them in order to begin your hands-on session
+3.  **SAP AI Core for document grounding**:
+    - A resource group and document grounding pipeline are set up and running.
 
-- [Exercise 0 - Getting Started - Login to the Tenant](exercises/ex0/Getting%20Started%20-%20Login%20to%20the%20Tenant.md) 
-- [Exercise 1 - Test the Action Project](exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md) 
-- [Exercise 2 - Create a Private Environment for Testing](exercises/ex2/Exercise%202%20-%20Create%20a%20Private%20Environment%20for%20Testing.md)
-- [Exercise 3 - Understanding Joule Skills](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/Exercise%203%3A%20Understanding%20Joule%20Skills.md)
-- [Exercise 3.0 -Create a new Joule Skill Package](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)
-    - [Exercise 3.1.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
-    - [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
-    - [Exercise 3.1.3 - Create your last Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
-    - [Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3a%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
-    - [Exercise 3.1.3b - Add Send Message steps in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
-
-     
-- [Exercise 4 -Creation of an Agent](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204%3A%20Create%20a%20Joule%20Agent.md)
-    - [Exercise 4.1: Test an Agent in Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
-- [Exercise 5 - Additional Section - Exercise to Release, Deploy and Test the Agent in Shared Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex5/Exercise%205%20-%20Exercise%20to%20Release,%20Deploy%20and%20Test%20the%20Agent%20in%20Shared%20Environment.md)
+---
 
 
+## Begin Your Hands-On Session
 
+Please follow the exercises in order. Each exercise page will link to the next one.
+
+➡️ **[Start Here: Ex. 0 - Getting Started](exercises/ex0/Getting%20Started%20-%20Login%20to%20the%20Tenant.md)**
+
+---
+
+<details>
+<summary><strong>Table of Contents (Click to expand for full exercise list)</strong></summary>
+
+- **Setup & Basics**
+  - [Ex. 0 - Getting Started - Login to the Tenant](exercises/ex0/Getting%20Started%20-%20Login%20to%20the%20Tenant.md)
+  - [Ex. 1 - Test the Action Project](exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md)
+  - [Ex. 2 - Create a Private Environment for Testing](exercises/ex2/Exercise%202%20-%20Create%20a%20Private%20Environment%20for%20Testing.md)
+- **Building Joule Skills**
+  - [Ex. 3 - Understanding Joule Skills](exercises/ex3/Exercise%203%3A%20Understanding%20Joule%20Skills.md)
+  - [Ex. 3.0 - Create a new Joule Skill Package](exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)
+  - [Ex. 3.1.1 - Build the "Get Delayed Shipments" Skill](exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
+  - [Ex. 3.1.2 - Build the "Track Shipment" Skill](exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
+  - [Ex. 3.1.3 - Build the "Create Shipment" Skill (Part 1)](exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
+  - [Ex. 3.1.3a - Build the "Create Shipment" Skill (Part 2 - Mapping)](exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3a%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
+  - [Ex. 3.1.3b - Build the "Create Shipment" Skill (Part 3 - Messaging)](exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
+- **Building & Testing the Agent**
+  - [Ex. 4 - Create a Joule Agent](exercises/ex4/Exercise%204%3A%20Create%20a%20Joule%20Agent.md)
+  - [Ex. 4.1 - Test an Agent in Private Environment](exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
+- **Deployment**
+  - [Ex. 5 - Release, Deploy and Test in Shared Environment](exercises/ex5/Exercise%205%20-%20Exercise%20to%20Release,%20Deploy%20and%20Test%20the%20Agent%20in%20Shared%20Environment.md)
+
+</details>
+
+---
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
@@ -72,8 +90,7 @@ Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribut
 Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## How to obtain support
-
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+Support for the content in this repository is available during the actual time of the online session. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
 Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.

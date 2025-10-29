@@ -1,4 +1,4 @@
-# Exercise 2 - Create a Private Environment for Testing
+# Ex. 2 - Create a Private Environment for Testing
 
 ## ⚙️ Understanding the Private Environment Concept
 
@@ -19,22 +19,18 @@ In other words, the Private Environment acts as a **sandbox** where you can free
 
 ## 🧩 Create your Private Environment
 
-### Step 1: Navigate to  ‘Control Tower’ and  ‘Environments’ 
-In the SAP Build Lobby browser tab, Click on the ‘Control Tower’ in the lobby
+### Step 1: Navigate to Control Tower
 
-In the Control Tower, click on the tile ‘Environments’
-<img width="1561" height="805" alt="image" src="https://github.com/user-attachments/assets/36a8ded8-0539-46af-a1aa-9ae4d2965192" />
-
-
+1.  In the SAP Build Lobby, click on the **Control Tower** tile.
+2.  In the Control Tower, click on the **Environments** tile.
+    <img width="1561" height="805" alt="image" src="https://github.com/user-attachments/assets/36a8ded8-0539-46af-a1aa-9ae4d2965192" />
 
 ### Step 2: Activate Private Environment
-Click on Activate Private Environment 
-<img width="1787" height="501" alt="image" src="https://github.com/user-attachments/assets/7a790f7b-94dd-4f1a-803c-7687de61f30c" />
 
-
-Afterwards, you'll see a notification
-
-<img width="686" height="274" alt="image" src="https://github.com/user-attachments/assets/e86d14c8-ec6c-40b5-9997-792bb82d6432" />
+1.  Click the **Activate Private Environment** button.
+    <img width="1787" height="501" alt="image" src="https://github.com/user-attachments/assets/7a790f7b-94dd-4f1a-803c-7687de61f30c" />
+2.  You will see a success notification in the corner of the screen.
+    <img width="686" height="274" alt="image" src="https://github.com/user-attachments/assets/e86d14c8-ec6c-40b5-9997-792bb82d6432" />
 
 ## 🌟 What's Next
 
@@ -42,5 +38,7 @@ The **Private Environment** you’ve just created will serve as your **safe test
 
 Now that your environment is ready, let’s move on to **Joule Studio** project set up, where you will copy our pre-created project and **create your first Joule Skill**, which will later be used by the Joule Agent as part of its end-to-end workflow.
 
-➡️ [**Next Exercise → Understanding Joule Skills**](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/Exercise%203%3A%20Understanding%20Joule%20Skills.md)
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+---
+
+- **➡️ [Next: Ex. 3 - Understanding Joule Skills](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/Exercise%203%3A%20Understanding%20Joule%20Skills.md)**
+- [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)

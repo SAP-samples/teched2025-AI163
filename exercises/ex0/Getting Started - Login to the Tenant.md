@@ -1,14 +1,19 @@
 ## Getting Started - Login to the Tenant
 
-<br> 1: All your users should be created. Please contact the trainers for Login id and Password
-<br> 2: Use  CTRL+click (on Windows and Linux) or CMD+click (on MacOS) on the tenant URL to access the SAP Build Lobby in a new tab : [Tenant Login](https://ai-agent-beta-build-default-eu12-ai163.eu12.build.cloud.sap/lobby)
-<br> 3: Choose the IDP : 'ashshdga3.accounts400.ondemand.com' to login
-<img width="745" height="266" alt="image" src="https://github.com/user-attachments/assets/52d8aff5-bf5f-4c4d-a837-da718d4e8c7e" />
-> 💡 **Note:**  
-> You will be prompted to change the password. Go ahead and create a new password based on the password criteria. 
+1.  **Get Credentials**: Your trainers will provide you with a unique Login ID and initial password.
 
-<br> <br> 4: Once the Login is successful, you should be able to see the SAP Build Lobby
-<br> <img width="1878" height="867" alt="image" src="https://github.com/user-attachments/assets/ccf8908a-9ce1-4716-a39c-7c5417a85545" />
-<br> <br>  - [Next Exercise - > Exercise 1 - Test the Action Project](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md)
+2.  **Access Tenant**: Use CTRL+click (on Windows/Linux) or CMD+click (on MacOS) on the tenant URL to open the SAP Build Lobby in a new tab:
+    - [Tenant Login](https://ai-agent-beta-build-default-eu12-ai163.eu12.build.cloud.sap/lobby)
 
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+
+> [!IMPORTANT]
+> **Change Your Password**
+> You will be prompted to change your password upon first login. Please create a new password that meets the on-screen criteria.
+
+3.  **Login Success**: Once logged in, you will see the SAP Build Lobby.
+    <img width="1878" height="867" alt="image" src="https://github.com/user-attachments/assets/ccf8908a-9ce1-4716-a39c-7c5417a85545" />
+
+---
+
+- **➡️ [Next: Exercise 1 - Test an Action Project](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md)**
+- [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
