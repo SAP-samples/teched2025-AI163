@@ -2,7 +2,7 @@
 <br> A 'Send Message' step enables you to send a personalized & pre-defined message to the end user in addion to the standard Joule response. 
 <br> We will be creating 2 "Send Message" steps, one for each of the Condition branches mentioned in the previous section. 
 
-* In Branch 1, Click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button & select 'Send Response' followed by 'Send Message'. Repeat the step for Branch 2, as well.
+1. In Branch 1, Click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button & select 'Send Response' followed by 'Send Message'. Repeat the step for Branch 2, as well.
 
 ![2025-10-27_18-00-19 (1)](https://github.com/user-attachments/assets/a0659e7d-6fbe-4fc6-ac0c-81f6486d4c2a)
 
@@ -45,7 +45,7 @@
 * Your Send Message step should look like the image below. You will also notice a preview of what you have designed on the left side. 
 <img width="1550" height="665" alt="image" src="https://github.com/user-attachments/assets/2b9295c1-c0f0-4e0e-b2b1-e61b20d4a00c" />
 <br>
-* We will now replicate these steps for the 'Shipment Update Message' in Branch 2 with a change in few fields as per the table below:
+2. We will now replicate these steps for the 'Shipment Update Message' in Branch 2 with a change in few fields as per the table below:
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
