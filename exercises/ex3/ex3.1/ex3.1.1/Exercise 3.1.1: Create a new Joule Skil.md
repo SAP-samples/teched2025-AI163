@@ -48,6 +48,8 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 
 
 <br><br>9: Create a ‘Destination Variable’
+>On the General Tab, click on the 'Environment' Variable input field
+> Click on the 'Create Environment Variable' option
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
 | **Destination variable name**        | `GetFromGTT`                  |
