@@ -125,4 +125,4 @@ The exercise walks users through the complete process — from creating the skil
 
 ➡️ [Ex. 3.1.2 - Create the second Joule Skill](../ex3.1.2/ex3.1.2-create-track-shipment-skill.md)<br>
 
-- [Back To Landing Page](../../README.md)
+- [Back To Landing Page](../../../README.md)

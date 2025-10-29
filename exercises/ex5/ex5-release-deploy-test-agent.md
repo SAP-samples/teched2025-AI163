@@ -2,8 +2,7 @@
 ## Ex. 5 – Release, Deploy, and Test the Project in a Shared Environment
 
 ### ⚙️ Context and Purpose
-In the previous exercise, you successfully tested your **Warehouse Workforce Optimization Agent** in a **Private Environment**.  
-Now, it’s time to **release and deploy** your project to a **Shared Environment** — enabling collaboration, integration testing, and visibility for other users in the same tenant.
+In the previous exercise, you successfully tested your **Logistics Agent** in a **Private Environment**. Now, it’s time to **release and deploy** your project to a **Shared Environment** — enabling collaboration, integration testing, and visibility for other users in the same tenant.
 
 This step finalizes your work, ensuring that your Joule Agent is packaged, deployed, and functioning within the broader environment context.
 
@@ -20,53 +19,49 @@ Releasing and deploying your project to a **Shared Environment** allows:
 > The deployment process — including version release, environment selection, and destination mapping — follows the **same steps** as described below.
 
 
-###  :file_folder: Create A Shared Environment
-<br>We will first create a Shared Environment for you to deploy your package to. 
+### Part 1: Create a Shared Environment
+We will first create a Shared Environment for you to deploy your package to. 
 
-1. Navigate to Control Tower from you build lobby and to the Environments section
+1. Navigate to **Control Tower** from your SAP Build lobby and go to the **Environments** section.
 <img width="1790" height="790" alt="image" src="https://github.com/user-attachments/assets/4fb77b80-a21f-4b7c-a608-0d098e856dd3" />
 
-* Click on the 'Create' button at the top right corner and provide the following inputs, replace the UserID value with your User Id for this exercise:
+2. Click on the **Create** button at the top right corner and provide the following inputs, replacing `<UserID>` with your assigned ID:
 
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
-| **Environment Name** | `JouleAgent_UserID` |
+| **Environment Name** | `JouleAgent_<UserID>` |
 | **Identifier**        | Auto Populated                |
 | **Color** | Any colour of your choice from the dropdown|
-| **Description** | `Environment For Joule Agent- UserID`|
-
+| **Description** | `Environment For Joule Agent - <UserID>`|
 
 <img width="1794" height="478" alt="image" src="https://github.com/user-attachments/assets/c26f5571-ffb0-4df9-94a5-24087602cac5" />
 <br>
 <img width="1795" height="688" alt="image" src="https://github.com/user-attachments/assets/6974795c-685b-43df-8f10-772e96ce1cf8" />
 
-2. Release and Deploy the Project
+---
 
-* Open your **Project Overview** page in Joule Studio and click **Release**.  
+### Part 2: Release and Deploy the Project
+
+1. Open your **Project Overview** page in Joule Studio and click **Release**.  
 <img width="1785" height="650" alt="image" src="https://github.com/user-attachments/assets/faccf2e2-4d91-48e1-94a6-e76771abcdd2" />
 
-
-* Once released, navigate to the **Released Version** of your project and click **Deploy**.  
+2. Once released, navigate to the **Released Version** of your project and click **Deploy**.  
 <img width="1798" height="583" alt="image" src="https://github.com/user-attachments/assets/4203bcc9-071a-417c-9216-763f674d74dc" />
 
-
-* In the deployment dialog, select the **Shared Environment** created earlier in your tenant and click **Deploy**.  
+3. In the deployment dialog, select the **Shared Environment** you just created and click **Deploy**.  
 <img width="1799" height="576" alt="image" src="https://github.com/user-attachments/assets/b4edd086-1d3b-495d-9548-9102548ee0a0" />
 
-
-
-* Choose the destinations as follows:
+4. In the next step, map the destinations as follows:
 
    | Destination | Value |
    |--------------|--------|
    | **AICore** | `included-ai-core` |
    | **GetFromGTT** | `gttGetService` |
-   | **PostToGTT** | `Cottwriteservice` |
+   | **PostToGTT** | `gttwriteservice` |
 
 <img width="1790" height="784" alt="image" src="https://github.com/user-attachments/assets/5abf7cf8-ff54-4318-b52b-9f7868c12051" />
 
-
-* Click **Deploy**.
+5. Click **Deploy**.
   
 > [!NOTE]
 > If this step fails for any reason, refresh the entire page and try again.
@@ -77,21 +72,19 @@ Releasing and deploying your project to a **Shared Environment** allows:
 
 ---
 
-4. Test the Deployed Project in the Shared Environment
+### Part 3: Test in the Shared Environment
 
-* Navigate to **Control Tower → Environments**.  
+1. Navigate to **Control Tower → Environments**.  
 <img width="1790" height="790" alt="image" src="https://github.com/user-attachments/assets/4fb77b80-a21f-4b7c-a608-0d098e856dd3" />
 
-* Search for and open the **Shared Environment** where your project was deployed.  
+2. Search for and open the **Shared Environment** where your project was deployed.  
 <img width="1797" height="439" alt="image" src="https://github.com/user-attachments/assets/e2f25742-d7ff-4084-92fd-d627dcb34f2c" />
 
-
-* Click on the **Joule** tab.  
-* Click **Launch** to open the **Joule Assistant**.
+3. Click on the **Joule** tab, then click **Launch** to open the **Joule Assistant**.
 > [!NOTE]
-> In case you do not see the Joule tab, it could be due to yur screen resolution. Click the menu button at the end ( 3 vertical dots) to find the Joule tab.
+> If you do not see the Joule tab, it may be hidden due to yur screen resolution. Click the menu button to the right (3 vertical dots) to find the **Joule tab**.
 
-5. Enter the same prompts used during testing in the **Private Environment** (see [Ex. 4.1 – Test an Agent in a Private Environment](../ex4/ex4.1-test-joule-agent.md)) to validate the behavior in the shared setup.
+4. Enter the same prompts used during private testing (see [Ex. 4.1](../ex4/ex4.1-test-joule-agent.md)) to validate the behavior.
 
 <img width="1795" height="502" alt="image" src="https://github.com/user-attachments/assets/00e848fa-a6d5-4f19-8351-4dcdba54de0c" />
 
@@ -107,8 +100,8 @@ You have now:
 
 
 ---
-You’ve now mastered the **complete Joule Agent Lifecycle** — from private design and validation to enterprise-grade deployment
+You’ve now mastered the **complete Joule Agent Lifecycle** — from private design and validation to enterprise-grade deployment.
 
-👏 Fantastic work — you’ve officially reached the finish line of this TechEd exercise series
+👏 **Fantastic work — you’ve officially reached the finish line of this TechEd exercise series!**
 
 <br> <br>  - [Back To Landing Page](../../README.md)

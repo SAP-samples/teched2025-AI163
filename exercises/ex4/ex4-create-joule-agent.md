@@ -1,16 +1,15 @@
 ## Ex. 4 - Create a Joule Agent :wrench:
 
-<br>Before we begin, we need to create an Destination Environment variable for Ai Core.
-This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
+### Prerequisite: Create AI Core Destination Variable
+Before we build the agent, we must create a Destination Environment variable for AI Core. This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
 <br>
-1. Click the Settings icon in the top-right corner of the Jole Package, as shown in the screenshot:
+1. Click the **Settings** icon in the top-right corner of the Joule Skill Package, as shown in the screenshot:
 <img width="1798" height="670" alt="image" src="https://github.com/user-attachments/assets/399ac844-ddcb-4fe4-9e45-9ae6628d5144" />
 
-*Click on 'Environment Variables' and then the Create button
-
+* Click on **Environment Variables** and then the **Create** button.
 <img width="1783" height="798" alt="image" src="https://github.com/user-attachments/assets/989661f9-aea0-469f-9580-90a214749c47" />
 
-<br>Input the following Values 
+<br>Input the following values and click **Create**: 
 
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
@@ -18,30 +17,30 @@ This allows the Joule Agent to connect with the AI Core environment for document
 | **Description** | `Destination for AI Core` |
 | **Type** | `Destination` |
 
-* Followed by "Create"
 <img width="1781" height="799" alt="image" src="https://github.com/user-attachments/assets/5139c4b5-d540-4266-9c41-3e8b3071d400" />
 
 <br>
 
-2. In the overview page of the project, click on the drop down Create and choose Joule Agent
+---
 
+### Part 1: Create and Define the Agent
+
+1. In the overview page of your project, click on the dropdown **Create** and choose **Joule Agent**.
 <img width="1789" height="615" alt="image" src="https://github.com/user-attachments/assets/ca005dd2-d51c-425e-b97e-88ce83473878" />
 
-
-* Enter the below details:
+* Enter the below details and click **Create**:
   
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
 | **Name**        | `Agent for Logistics`                  |
 | **Description** | `An agent to create OR update OR track shipments in GTT` |
 
-* Click on 'Create'
 <img width="3538" height="1298" alt="image" src="https://github.com/user-attachments/assets/2aadd9a6-3717-4f81-b557-22596d213e2c" />
 
 <br>
 <br>
 
-3. In the Agent builder, enter the details as below:<br>
+2. In the Agent builder, enter the details as below:<br>
 
 **Expertise**:
 
@@ -87,7 +86,11 @@ Display all carriers list as card or a selection list for the user to clearly se
 
 <br><br>
 
-4. Choose the remaining options according to the table below:
+---
+
+### Part 2: Model and Tool Configuration
+
+1. Choose the **Model Configuration** options according to the table below:
   
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
@@ -98,22 +101,18 @@ Display all carriers list as card or a selection list for the user to clearly se
 | **Backup LLM** | `Toggle OFF` |
 | **Advanced Configuration** | `Both checkboxes Unchecked` |
 
-
-
 <img width="1775" height="767" alt="image" src="https://github.com/user-attachments/assets/f1926b54-788c-4b91-91ef-a76bec7e73b5" />
-
-
 <br><br>
 
-5. In the Tools Section, add the following joule skills as tools to the agent:
-* Click on ‘Add Tool’ and click on ‘Joule Skill’. A pop-up window with available joule skills in the project is displayed.
-* Choose one by one and click on ‘Add’ button.
+2. In the **Tools Section**, add the Joule Skills you created as tools for the agent:
+* Click on **‘Add Tool’** and then click on **‘Joule Skill’**. A pop-up window with available skills in the project will be displayed.
+* Choose each skill one-by-one and click the **‘Add’** button.
 <img width="1797" height="898" alt="image" src="https://github.com/user-attachments/assets/16feaee2-b821-4ce0-94cf-3bea0ccb489d" />
 
 <br><br>
 
-6. **Document Grounding**: In the ‘Tools’ Section, add ‘Documents’ as Tools:
-* Click on ‘Add Tool’ -> ’Documents’
+3. Add **Document Grounding** as a tool:
+* In the ‘Tools’ Section, click on **‘Add Tool’** -> **’Documents’**.
 <img width="1789" height="785" alt="image" src="https://github.com/user-attachments/assets/42a5cd61-65fe-468c-956c-f59f415a70a9" />
 
 <br>Enter the below details:
@@ -131,14 +130,13 @@ This process enhances the reliability and relevance of Joule's responses by redu
 
 <br>
 
-* Click on Apply button
-
+* Click the **Apply** button.
 <img width="1800" height="852" alt="image" src="https://github.com/user-attachments/assets/df782a69-4811-4c9a-a5ec-03df27ed48ab" />
 
 
 <br>
 
-* Save the Agent
+* **Save** the Agent.
 
 ## Summary — Ex. 4: Create a Joule Agent 🔧
 
@@ -147,27 +145,16 @@ The agent acts as an intelligent assistant that can **create, update, or track s
 
 ---
 
-### 1. Create AI Core Destination Variable
-Before building the agent, a **Destination Environment Variable** for AI Core must be created.
-This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
+### Part 1: Create and Configure the Agent
+This section covers creating the agent and defining its core behavior:
+- **Expertise** - Defines the agent’s professional focus and domain.
+- **Instructions** - Specifies the agent’s primary goals and logic for choosing tools.
+- **Additional Context** - Provides tone and behavioral guidance for the agent.
 
-
-### 2. Create a Joule Agent
-This agent will combine the functionality of the three Joule Skills created earlier.
-
-### 3. Configure Agent Details
-**Expertise** - Defines the agent’s professional focus and domain
-**Instructions** - Specifies the agent’s primary goals and logic for choosing tools
-**Additional Context** - Provides tone and behavioral guidance for the agent
-
-### 4. Model Configuration
-This ensures a balanced, performant setup for the agent’s reasoning and responses.
-
-### 5. Add Joule Skills as Tools
-These tools enable the agent to perform specific logistics tasks.
-
-### 6. Add Documents as Tools - Document Grounding
-This document grounding allows the agent to reference real carrier data.
+### Part 2: Model and Tool Configuration
+- **Model Configuration** ensures a balanced, performant setup for the agent’s reasoning.
+- **Joule Skills** are added as tools, enabling the agent to perform specific logistics tasks.
+- **Document Grounding** is added as a tool, allowing the agent to reference real carrier data.
 
 <br>
 

@@ -1,4 +1,4 @@
-## Ex. 3.1.3b - Add Send Message steps in Joule Skill
+## Ex. 3.1.3b - Add 'Send Message' Steps to Condition Branches in Joule Skill
 <br> A 'Send Message' step enables you to send a personalized & pre-defined message to the end user in addition to the standard Joule response. 
 <br> We will be creating 2 "Send Message" steps, one for each of the Condition branches created in the previous exercise. 
 
@@ -9,7 +9,6 @@
 <br>
 
 * Click on the Send Message step on Branch 1 and name it as ```Create Shipment Message```.
-
 <img width="3572" height="1398" alt="image" src="https://github.com/user-attachments/assets/256a69d4-430c-4586-b1b0-d509435f97e9" />
 
 <br>
@@ -26,7 +25,7 @@
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
 | Title                   | `Success`|
-| Text        | `Shipment Id ${context.startEvent.shipmentid} created successfully in GTT`  |
+| Text        | ```Shipment Id ${context.startEvent.shipmentid} created successfully in GTT```  |
 | Illustration      | Success High Five  |
 
 <img width="1549" height="844" alt="image" src="https://github.com/user-attachments/assets/609ba0dc-3449-4617-9d26-aa85afef4e2b" />
@@ -36,7 +35,7 @@
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Title                   | `View Shipment`|
-| url        | `https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts`  |
+| url        | ```https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts```  |
 
 > [!WARNING]
 > You will not be able to directly access the GTT system due to restricted Authorization. Ask your trainer to show you the created shipment in the GTT system. 
@@ -52,7 +51,7 @@
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
 | Title                   | `Carrier Updated`|
-| Text        | `Shipment Id ${context.startEvent.shipmentid} created successfully in GTT`  |
+| Text        | ```Shipment Id ${context.startEvent.shipmentid} updated successfully in GTT```  |
 | Illustration      | Success Check Mark  |
 
 * In the **Action Button** section, click **Add Button** and enter the values from the table below:
@@ -60,7 +59,7 @@
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Title                   | `View Shipment`|
-| url        | `https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts`  |
+| url        | ```https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts```  |
 
 
 > [!WARNING]
@@ -70,7 +69,7 @@
 
 * Save your Skill.
 
-## Summary — Ex. 3.1.3b: Add Send Message Steps in Joule Skill
+## Summary — Ex. 3.1.3b: Add 'Send Message' Steps to Condition Branches in Joule Skill
 
 This page explains how to add **“Send Message”** steps in the Joule Skill to provide personalized and pre-defined feedback messages to users.  
 These messages are displayed in addition to the standard Joule response when a shipment is **created** or **updated** in the SAP Business Network GTT system.
