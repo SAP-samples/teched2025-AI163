@@ -23,7 +23,8 @@ In other words, the Private Environment acts as a **sandbox** where you can free
 
 1.  In the SAP Build Lobby, click on the **Control Tower** tile.
 2.  In the Control Tower, click on the **Environments** tile.
-    <img width="1561" height="805" alt="image" src="https://github.com/user-attachments/assets/36a8ded8-0539-46af-a1aa-9ae4d2965192" />
+<img width="3122" height="1610" alt="image" src="https://github.com/user-attachments/assets/4667cd09-bec0-4868-9aa8-b2cc496aff3b" />
+
 
 ### Step 2: Activate Private Environment
 
