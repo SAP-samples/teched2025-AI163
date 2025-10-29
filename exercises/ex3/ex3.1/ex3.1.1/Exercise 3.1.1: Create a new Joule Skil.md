@@ -48,8 +48,10 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 
 
 <br><br>9: Create a ‘Destination Variable’
->On the General Tab, click on the 'Environment' Variable input field
-> Click on the 'Create Environment Variable' option
+* On the General Tab, click in the 'Destination Variable' input field
+* Click on the 'Create Environment Variable' option from the drop-down
+<br>
+
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
 | **Destination variable name**        | `GetFromGTT`                  |
@@ -62,22 +64,25 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 ![2025-10-24_14-44-26 (1)](https://github.com/user-attachments/assets/26c4de22-31a6-4347-ae63-0dd684465aab)
 
 <br><br>10: We will now add filter criteria as input to Action to fetch the delayed shipments. Click on the Action and select the Input tab on the right pane. 
-<img width="1781" height="724" alt="image" src="https://github.com/user-attachments/assets/3a3e7c86-a4a5-465e-9a80-28446c03dde2" />
+<img width="3562" height="1448" alt="image" src="https://github.com/user-attachments/assets/16ed9986-7fdb-43a6-b24d-04d5f5f08266" />
+
 
 <br><br>11: Click on the $filter input area and select the <img width="100" height="25" alt="image" src="https://github.com/user-attachments/assets/97985dd3-212e-4ea3-9a00-a61302b9107b" /> option which will take you to the Formula Editor.
 <img width="1790" height="850" alt="image" src="https://github.com/user-attachments/assets/79f00018-3f51-49ed-b404-042910d48a65" />
 
-<br><br> Input `ConcatenateStrings(["delayStatus eq ", true, ""], "")` in the formual editor and click on 'Apply'
+<br><br> Input ```ConcatenateStrings(["delayStatus eq ", true, ""], "")``` in the formual editor and click on 'Apply'
 
-<img width="1795" height="847" alt="image" src="https://github.com/user-attachments/assets/d8143fc2-7989-4a21-9bc9-35d7a2c30206" />
-<br><br>12: Finally, we will now create an output parameter for the Joule Skill and map the Action output to it. 
-<br>Click anywhere in the Skill Builder's grey area and click on the <img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/ee9b22ee-e035-4324-8cda-e9a8c43a4e84" /> button on the right to show the Skill meta data
+<img width="3590" height="1694" alt="image" src="https://github.com/user-attachments/assets/fd36e993-1b0d-445c-a76c-082dd86728e7" />
+
+<br><br>12: Finally, we will now create an output parameter for the Joule Skill and map the Action output to it. <br>
+* Click anywhere in the Skill Builder's grey area and click on the <img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/ee9b22ee-e035-4324-8cda-e9a8c43a4e84" /> button on the right to show the Skill meta data
 <img width="1793" height="591" alt="image" src="https://github.com/user-attachments/assets/9d61f8eb-e8ff-448e-9d35-bb98fce63b3b" />
 
-<br>Click on the Parameters tab to show the Input & Output parameters. 
-<br>Click on the Configure button next to the Skill Outputs 
-<img width="1793" height="685" alt="image" src="https://github.com/user-attachments/assets/908a181a-4418-4d76-b18a-bf2b8d9baec9" />
-<br><br>Click on the 'Add Onput' button and add the following Onputs with Description. 
+* Click on the Parameters tab to show the Input & Output parameters.
+* Click on the Configure button next to the Skill Outputs 
+<img width="3586" height="1370" alt="image" src="https://github.com/user-attachments/assets/b3606f47-e4a3-42a9-9819-9ca58ddadea2" />
+<br>
+* Click on the 'Add Ouput' button and add the following Ouputs with Description. 
 > [!Note]
   > - All the Identifiers are entered automatically and will be same as ‘Name’ field
 
@@ -87,8 +92,7 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 
 <img width="1793" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf645a0-d605-4256-b42b-3b58f0603ea1" />
 
-<br><br>Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output <img width="85" height="20" alt="image" src="https://github.com/user-attachments/assets/01bc5446-99c2-4f57-b08f-c7d4bc0804a6" />
- from the left pane by expanding the tree.
+<br><br>*Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output <img width="85" height="20" alt="image" src="https://github.com/user-attachments/assets/01bc5446-99c2-4f57-b08f-c7d4bc0804a6" /> from the left pane by expanding the tree.
 <img width="1792" height="855" alt="image" src="https://github.com/user-attachments/assets/7255ee94-d4bb-422e-99d3-b71cdb0e0eff" />
 
 
