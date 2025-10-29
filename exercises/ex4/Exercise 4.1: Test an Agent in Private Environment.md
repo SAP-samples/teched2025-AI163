@@ -26,19 +26,23 @@
 
 <br>  3.1.  :point_right: **Prompt**: 
 <br>```Could you please assist me in creating a Shipment ?```
-<br>:full_moon: **Result**:Joule Requests shipment details: Shipment ID, Source Location, Destination Location, Pick up Date. 
+<br> :full_moon: **Result**: Joule Requests shipment details: Shipment ID, Source Location, Destination Location, Pick up Date. 
 
 <img width="1785" height="811" alt="image" src="https://github.com/user-attachments/assets/84ee5c3b-1328-44c0-b17b-36182cec6a33" />
 
 
 <br>  3.2:  Provide the requested inputs 
 <br>:point_right: **Prompt**:
+> [!NOTE]
+> Replace < userID > with your User Id
+
 ```
 Shipment ID: 61000<userID>
 Source Location: SFO
 Destination Location: NYC
 Pick-up Date and Time: 2025-10-28T10:00:00Z
 ```
+
 
 <br>:full_moon: **Result**: Joule responds with the success message you created earlier along with the shipment number and link to the GTT system 
 <img width="1791" height="813" alt="image" src="https://github.com/user-attachments/assets/c842a81c-a3be-4837-9fee-8045d3090b1b" />
@@ -47,7 +51,7 @@ Pick-up Date and Time: 2025-10-28T10:00:00Z
 <br><br>
 <br>  4: :point_right: **Prompt**: 
 <br>```Suggest the best carriers from SFO to NYC```
-<br>:full_moon: **Result**:Joule propose the carriers based on the carrier rates document uploaded in AI Core.
+<br>:full_moon: **Result**: Joule propose the carriers based on the carrier rates document uploaded in AI Core.
 
 
 <img width="458" height="276" alt="image" src="https://github.com/user-attachments/assets/dd4bb5d9-58a0-4c10-ae10-0eaa77b66dcd" />
@@ -55,19 +59,53 @@ Pick-up Date and Time: 2025-10-28T10:00:00Z
 
 
 <br>  5: :point_right: **Prompt**:
-```I would like to find all the delayed shipments```
+<br> ```I would like to find all the delayed shipments```
 
 <br>:full_moon: **Result**: Joule responds with Display a list of shipments with Delayed status in the GTT system
 <img width="580" height="350" alt="image" src="https://github.com/user-attachments/assets/1ecae1c1-2d46-48ef-8a45-b2cc799a8367" />
 
 <br>  6: :point_right: **Prompt**:
+> [!NOTE]
+> Replace < userID > with your User Id
+
 ```I want to track the shipment 61000<UserId>```
+
+
 
 <br>:full_moon: **Result**: Joule responds with tracking info of the shipment in the GTT system
 
 <img width="601" height="481" alt="image" src="https://github.com/user-attachments/assets/2e244478-c62f-4074-97c4-3ccd3af7cb42" />
 
+<br>
 
+## Summary — Exercise 4.1: Test a Joule Agent in a Private Environment
+
+This page explains how to **test the Joule Agent** you created in a **private environment** before deploying it more broadly.  
+The testing process ensures the agent correctly interacts with the configured tools, destinations, and document grounding.
+
+---
+
+### 1. Set Up the Test Environment
+
+
+### 2. Test Scenarios and Prompts
+
+
+* 🟢 **Scenario 1: Create a Shipment**
+* 🟠 **Scenario 2: Suggest Best Carriers**
+* 🔵 **Scenario 3: Show Delayed Shipments**
+* 🟣 **Scenario 4: Track a Shipment**
+
+### ✅ Outcome
+
+By the end of this exercise, the **Agent for Logistics**:
+- Successfully handles shipment creation and updates  
+- Suggests carriers intelligently based on AI Core documents  
+- Retrieves delayed shipment lists  
+- Tracks shipments accurately in GTT  
+
+
+<br>
 
 ➡️ [Next Exercise - > Exercise 7 - Additional Section - Exercise to Release, Deploy and Test the Agent in Shared Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex5/Exercise%205%20-%20Exercise%20to%20Release,%20Deploy%20and%20Test%20the%20Agent%20in%20Shared%20Environment.md)
 
