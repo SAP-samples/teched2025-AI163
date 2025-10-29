@@ -15,13 +15,13 @@
 * Click on 'Create'
 <img width="3538" height="1298" alt="image" src="https://github.com/user-attachments/assets/2aadd9a6-3717-4f81-b557-22596d213e2c" />
 
-
+<br>
 
 2: In the Agent builder, enter the details as below:<br>
 
 **Expertise**:
 
-**💡 Tip:** Defines the agent's professional identity and field of knowledge.	This tells the agent which general business area it is operating in, such as finance, human resources, or supply chain. Your input here will help shape the agent's overall tone, vocabulary, and scope.
+**💡 Tip:** Expertise defines the agent's professional identity and field of knowledge.	This tells the agent which general business area it is operating in, such as finance, human resources, or supply chain. Your input here will help shape the agent's overall tone, vocabulary, and scope.
 
 ```
 You are responsible to create shipment, determine/suggest cheapest carrier, update carrier OR track shipments in GTT.
@@ -29,7 +29,7 @@ You are responsible to create shipment, determine/suggest cheapest carrier, upda
 
 **Instructions:**
 
-**💡 Tip:** Specifies the agent's core goal, rules, and constraints.	This is the most critical part, as it dictates what the agent should accomplish. It directs the agent's behavior by providing guardrails and setting its primary objective.
+**💡 Tip:** Instructions specifies the agent's core goal, rules, and constraints.	This is the most critical part, as it dictates what the agent should accomplish. It directs the agent's behavior by providing guardrails and setting its primary objective.
 
 ```
 1. Create Shipment: Use the tool 'Create Shipment' to create a new shipment. Trigger the tool Create Shipment assigned to the agent and display the message from the tool and stop. 
@@ -61,7 +61,9 @@ Display all carriers list as card or a selection list for the user to clearly se
 ```
 <img width="1800" height="808" alt="image" src="https://github.com/user-attachments/assets/b33e3dfd-cbbb-4676-b9ac-bda65c2a4132" />
 
-* Choose the remaining options according to the table below:
+<br>
+
+3. Choose the remaining options according to the table below:
   
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
@@ -69,16 +71,15 @@ Display all carriers list as card or a selection list for the user to clearly se
 | **LLM provider** | `OpenAI` |
 | **Base Model** | `GPT4o Mini` |
 | **Advanced Model** | `GPT4o` |
-| **Backup LLM** | `Toggle Off` |
-| **Advanced Configuration** | `both checkboxes Unchecked` |
+| **Backup LLM** | `Toggle OFF` |
+| **Advanced Configuration** | `Both checkboxes Unchecked` |
 
-* Keep the toggle off for Backup LLM
-* In the Advanced Configuration, leave the check boxes un checked.
+
 
 <img width="1775" height="767" alt="image" src="https://github.com/user-attachments/assets/f1926b54-788c-4b91-91ef-a76bec7e73b5" />
 
 
-<br>3: In the Tools Section, add the following joule skills as tools to the agent:
+<br>4. In the Tools Section, add the following joule skills as tools to the agent:
 <br>Click on ‘Add Tool’ and click on ‘Joule Skill’. A pop-up window with available joule skills in the project is displayed.
 
 <br>Choose one by one and click on ‘Add’ button.
@@ -87,12 +88,19 @@ Display all carriers list as card or a selection list for the user to clearly se
 <br>4: In the ‘Tools’ Section, add ‘Documents’ as Tools:
 <br><br>Click on ‘Add Tool’ -> ’Documents’
 <br>Enter the below details:
-<br><br>Tool name: ‘Carrier Selection Guide'
-<br>Description: ‘Internal guidelines required by the agent to select cheapest carrier based on the costs provided in the document. It covers the carrier selection guide as a table with all possible carriers for the given source and destination location.’
-<br>-Destination variable: AICore
-<br>-Resource Group ID: MyResourceGroup
-<br>-Collection ID: 05af5860-a616-4ae0-ae39-bacff6d90a61
-<br><br>--Click on Apply button
+
+| Field         | Value                                     |
+|---------------|-------------------------------------------|
+| **Tool name**        | `Carrier Selection Guide`                  |
+| **Description** | `Internal guidelines required by the agent to select cheapest carrier based on the costs provided in the document. It covers the carrier selection guide as a table with all possible carriers for the given source and destination location.` |
+| **Destination variable**        | `AICore`                  |
+| **Resource Group ID**        | `MyResourceGroup`                  |
+| **Collection ID**        | `05af5860-a616-4ae0-ae39-bacff6d90a61`                  |
+
+
+<br>
+
+* Click on Apply button
 
 <img width="1800" height="852" alt="image" src="https://github.com/user-attachments/assets/df782a69-4811-4c9a-a5ec-03df27ed48ab" />
 
