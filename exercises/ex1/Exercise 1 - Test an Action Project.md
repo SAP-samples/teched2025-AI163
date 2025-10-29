@@ -68,6 +68,6 @@ Once the Private Environment is ready, we’ll proceed to **use the tested Actio
 
 ---
 
-➡️ [Next: Exercise 2 – Create a Private Environment for Testing**](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex2/Exercise%202%20-%20Create%20a%20Private%20Environment%20for%20Testing.md)
+➡️ [Next: Exercise 2 – Create a Private Environment for Testing](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex2/Exercise%202%20-%20Create%20a%20Private%20Environment%20for%20Testing.md)
 <br>
 - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
