@@ -1,4 +1,4 @@
-## Exercise 4.1: Test an Agent in Private Environment
+## Ex. 4.1: Test an Agent in Private Environment
 
 <br> Once the Agent is created, you can test it in a Private Environment. 
 
@@ -13,7 +13,7 @@
 
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
-| **Environment**        | `Choose your <_userid> related Private environment`                  |
+| **Environment**        | `Choose your <_UserID> related Private environment`                  |
 | **AICore** | `included-ai-core` |
 | **PostToGTT** | `gttwriteservice` |
 | **GetFromGTT** | `gttGetService` |
@@ -35,10 +35,10 @@
 <br>  3.2:  Provide the requested inputs 
 <br>:point_right: **Prompt**:
 > [!NOTE]
-> Replace < userID > with your User Id
+> Replace < UserID > with your UserID
 
 ```
-Shipment ID: 61000<userID>
+Shipment ID: 61000<UserID>
 Source Location: SFO
 Destination Location: NYC
 Pick-up Date and Time: 2025-10-28T10:00:00Z
@@ -71,9 +71,9 @@ Pick-up Date and Time: 2025-10-28T10:00:00Z
 
 <br>  6: :point_right: **Prompt**:
 > [!NOTE]
-> Replace < userID > with your User Id
+> Replace < UserID > with your User Id
 
-```I want to track the shipment 61000<UserId>```
+```I want to track the shipment 61000<UserID>```
 
 
 
@@ -83,7 +83,7 @@ Pick-up Date and Time: 2025-10-28T10:00:00Z
 
 <br>
 
-## Summary — Exercise 4.1: Test a Joule Agent in a Private Environment
+## Summary — Ex. 4.1: Test a Joule Agent in a Private Environment
 
 This page explains how to **test the Joule Agent** you created in a **private environment** before deploying it more broadly.  
 The testing process ensures the agent correctly interacts with the configured tools, destinations, and document grounding.
@@ -112,6 +112,6 @@ By the end of this exercise, the **Agent for Logistics**:
 
 <br>
 
-➡️ [Next Exercise - > Exercise 5 - Additional Section - Exercise to Release, Deploy and Test the Agent in Shared Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex5/Exercise%205%20-%20Exercise%20to%20Release,%20Deploy%20and%20Test%20the%20Agent%20in%20Shared%20Environment.md)
+➡️ [Next Exercise - > Ex. 5 - Additional Section - Exercise to Release, Deploy and Test the Agent in Shared Environment](../ex5/ex5-release-deploy-test-agent.md)
 
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+<br> <br>  - [Back To Landing Page](../../README.md)

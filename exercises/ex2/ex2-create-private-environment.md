@@ -41,5 +41,5 @@ Now that your environment is ready, let’s move on to **Joule Studio** project 
 
 ---
 
-➡️ [Next: Ex. 3 - Understanding Joule Skills](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/Exercise%203%3A%20Understanding%20Joule%20Skills.md)
-- [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+➡️ [Next: Ex. 3 - Understanding Joule Skills](../ex3/ex3-understanding-joule-skills.md)
+- [Back To Landing Page](../../README.md)

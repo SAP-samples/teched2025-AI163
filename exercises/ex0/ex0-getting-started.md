@@ -1,4 +1,4 @@
-## Getting Started - Login to the Tenant
+# Ex. 0: Getting Started - Login to the Tenant
 
 1.  **Get Credentials**: Your trainers will provide you with a unique Login ID and initial password.
 
@@ -15,5 +15,5 @@
 
 ---
 
-➡️ [Next: Exercise 1 - Test an Action Project](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md)
-- [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+➡️ [Next: Ex. 1 - Test an Action Project](../ex1/ex1-test-action-project.md)
+- [Back To Landing Page](../../README.md)

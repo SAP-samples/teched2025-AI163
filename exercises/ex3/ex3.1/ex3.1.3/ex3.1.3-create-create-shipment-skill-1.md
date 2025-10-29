@@ -1,4 +1,4 @@
-## Exercise 3.1.3 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create your last Joule Skill
+## Ex. 3.1.3 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create your last Joule Skill
 We will now create our final Joule Skills 
 > [!Note]
   > - Close the previous open Joule Skill to go to the Overview Page.
@@ -18,7 +18,7 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 * Click on ‘Create’ button
 > [!Note]
-  > - The Identifier is autopoulated based on the Skill name
+  > - The Identifier is autopopulated based on the Skill name
 <img width="1800" height="721" alt="image" src="https://github.com/user-attachments/assets/0d1108d6-c301-4591-a11d-e7fc7f4d2ad8" />
 
 
@@ -83,7 +83,7 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 <br><br>
 
-# Summary — Exercise 3.1.3: Create the Final Joule Skill
+# Summary — Ex. 3.1.3: Create the Final Joule Skill
 
 This page explains how to create the **final Joule Skill** in the SAP **Joule Skill Package**, named **“Create Shipment.”**  
 The purpose of this skill is to **create or update a shipment** in the **SAP Business Network Global Track and Trace (GTT)** system.  
@@ -104,5 +104,5 @@ The page concludes with a link to the next exercise, which focuses on mapping th
 
 
   
-➡️ [Next Exercise - > Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3a%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+➡️ [Next Exercise - > Ex. 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs](ex3.1.3a-create-create-shipment-skill-2.md)
+<br> <br>  - [Back To Landing Page](../../README.md)

@@ -1,4 +1,4 @@
-## Exercise 3.1.2 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create the second Joule Skill
+## Ex. 3.1.2 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create the second Joule Skill
 We will now create our second Joule Skill in a similar way as the previous section. 
 <br>
 > [!Note]
@@ -20,7 +20,7 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 * Click on ‘Create’ button
   
 > [!Note]
-  > - The Identifier is autopoulated based on the Skill name
+  > - The Identifier is autopopulated based on the Skill name
 <img width="1794" height="847" alt="image" src="https://github.com/user-attachments/assets/1c19b82c-c9cd-4f16-94f2-5daa60592ae4" />
 
 
@@ -79,7 +79,7 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 <img width="1790" height="679" alt="image" src="https://github.com/user-attachments/assets/ad14784f-f1b7-4e04-9ff7-075224d5de99" />
 
 
-* Input `ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")` in the formual editor. Replace [Tracking ID] with the trackingID Input from the left pane by double clicking on it and click on 'Apply'
+* Input `ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")` in the Formula Editor. Replace [Tracking ID] with the trackingID Input from the left pane by double clicking on it and click on 'Apply'
 <img width="1791" height="835" alt="image" src="https://github.com/user-attachments/assets/3bb0b34c-9e2c-4625-8199-32184c776661" />
 <br>
 
@@ -124,7 +124,7 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 <br><br>12: Save your Joule Skill. :white_check_mark:
 
 
-# Summary — Exercise 3.1.2: Create the Second Joule Skill
+# Summary — Ex. 3.1.2: Create the Second Joule Skill
 
 This page explains how to create the **second Joule Skill** in the SAP **Joule Skill Package**, named **“Track Shipment.”**  
 The purpose of this skill is to **track a specific shipment** in the **SAP Business Network Global Track and Trace (GTT)** system using its tracking ID.
@@ -143,5 +143,5 @@ The exercise follows a similar approach to the previous skill and includes these
 
 <br> Once created, this skill allows users to track any specific shipment in the GTT system by providing a tracking ID.
 
-➡️ [Exercise 3.1.3 - Create the final Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+➡️ [Ex. 3.1.3 - Create the final Joule Skill](../ex3.1.3/ex3.1.3-create-create-shipment-skill-1.md)
+<br> <br>  - [Back To Landing Page](../../README.md)

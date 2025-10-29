@@ -54,7 +54,7 @@ All required backend systems and configurations have been pre-provisioned for th
 
 Please follow the exercises in order. Each exercise page will link to the next one.
 
-➡️ **[Start Here: Ex. 0 - Getting Started](exercises/ex0/Getting%20Started%20-%20Login%20to%20the%20Tenant.md)**
+➡️ **[Start Here: Ex. 0 - Getting Started](exercises/ex0/ex0-getting-started.md)**
 
 ---
 
@@ -62,22 +62,22 @@ Please follow the exercises in order. Each exercise page will link to the next o
 <summary><strong>Table of Contents (Click to expand for full exercise list)</strong></summary>
 
 - **Setup & Basics**
-  - [Ex. 0 - Getting Started - Login to the Tenant](exercises/ex0/Getting%20Started%20-%20Login%20to%20the%20Tenant.md)
-  - [Ex. 1 - Test the Action Project](exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md)
-  - [Ex. 2 - Create a Private Environment for Testing](exercises/ex2/Exercise%202%20-%20Create%20a%20Private%20Environment%20for%20Testing.md)
+  - [Ex. 0 - Getting Started - Login to the Tenant](exercises/ex0/ex0-getting-started.md)
+  - [Ex. 1 - Test the Action Project](exercises/ex1/ex1-test-action-project.md)
+  - [Ex. 2 - Create a Private Environment for Testing](exercises/ex2/ex2-create-private-environment.md)
 - **Building Joule Skills**
-  - [Ex. 3 - Understanding Joule Skills](exercises/ex3/Exercise%203%3A%20Understanding%20Joule%20Skills.md)
-  - [Ex. 3.0 - Create a new Joule Skill Package](exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)
-  - [Ex. 3.1.1 - Build the "Get Delayed Shipments" Skill](exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
-  - [Ex. 3.1.2 - Build the "Track Shipment" Skill](exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
-  - [Ex. 3.1.3 - Build the "Create Shipment" Skill (Part 1)](exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
-  - [Ex. 3.1.3a - Build the "Create Shipment" Skill (Part 2 - Mapping)](exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3a%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
-  - [Ex. 3.1.3b - Build the "Create Shipment" Skill (Part 3 - Messaging)](exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
+  - [Ex. 3 - Understanding Joule Skills](exercises/ex3/ex3-understanding-joule-skills.md)
+  - [Ex. 3.0 - Create a new Joule Skill Package](exercises/ex3/ex3.0/ex3.0-create-joule-skill.md)
+  - [Ex. 3.1.1 - Build the "Get Delayed Shipments" Skill](exercises/ex3/ex3.1/ex3.1.1/ex3.1.1-create-get-delayed-skill.md)
+  - [Ex. 3.1.2 - Build the "Track Shipment" Skill](exercises/ex3/ex3.1/ex3.1.2/ex3.1.2-create-track-shipment-skill.md)
+  - [Ex. 3.1.3 - Build the "Create Shipment" Skill (Part 1)](exercises/ex3/ex3.1/ex3.1.3/ex3.1.3-create-create-shipment-skill-1.md)
+  - [Ex. 3.1.3a - Build the "Create Shipment" Skill (Part 2 - Mapping)](exercises/ex3/ex3.1/ex3.1.3/ex3.1.3a-create-create-shipment-skill-2.md)
+  - [Ex. 3.1.3b - Build the "Create Shipment" Skill (Part 3 - Messaging)](exercises/ex3/ex3.1/ex3.1.3/ex3.1.3b-create-create-shipment-skill-3.md)
 - **Building & Testing the Agent**
-  - [Ex. 4 - Create a Joule Agent](exercises/ex4/Exercise%204%3A%20Create%20a%20Joule%20Agent.md)
-  - [Ex. 4.1 - Test an Agent in Private Environment](exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
+  - [Ex. 4 - Create a Joule Agent](exercises/ex4/ex4-create-joule-agent.md)
+  - [Ex. 4.1 - Test an Agent in Private Environment](exercises/ex4/ex4.1-test-joule-agent.md)
 - **Deployment**
-  - [Ex. 5 - Release, Deploy and Test in Shared Environment](exercises/ex5/Exercise%205%20-%20Exercise%20to%20Release,%20Deploy%20and%20Test%20the%20Agent%20in%20Shared%20Environment.md)
+  - [Ex. 5 - Release, Deploy and Test in Shared Environment](exercises/ex5/ex5-release-deploy-test-agent.md)
 
 </details>
 

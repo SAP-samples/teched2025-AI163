@@ -1,6 +1,6 @@
-## Exercise 4 - Create a Joule Agent :wrench:
+## Ex. 4 - Create a Joule Agent :wrench:
 
-<br>Before we begin, we need to creat an Destination Environment variable for Ai Core.
+<br>Before we begin, we need to create an Destination Environment variable for Ai Core.
 This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
 <br>
 1. Click the Settings icon in the top-right corner of the Jole Package, as shown in the screenshot:
@@ -140,7 +140,7 @@ This process enhances the reliability and relevance of Joule's responses by redu
 
 * Save the Agent
 
-## Summary — Exercise 4: Create a Joule Agent 🔧
+## Summary — Ex. 4: Create a Joule Agent 🔧
 
 This page explains how to create a **Joule Agent** in SAP Joule and configure it with the previously created **Joule Skills** and relevant document grounding.  
 The agent acts as an intelligent assistant that can **create, update, or track shipments** in the **SAP Business Network Global Track and Trace (GTT)** system.
@@ -171,5 +171,5 @@ This document grounding allows the agent to reference real carrier data.
 
 <br>
 
-➡️ [Next Exercise - > Exercise 4.1 - Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+➡️ [Next Exercise - > Ex. 4.1 - Test an Agent in a Private Environment](ex4.1-test-joule-agent.md)
+<br> <br>  - [Back To Landing Page](../../README.md)

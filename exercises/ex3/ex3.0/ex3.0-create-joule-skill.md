@@ -9,10 +9,9 @@
 
 3.  In the "Create Joule Skill" dialog, enter the following details.
 
-
 > [!IMPORTANT]
 > **You must use your unique UserID.**
-> Before filling in the fields, note that you need to replace `<UserID>` with your assigned user number (e.g., if your user is `T-AI163-050`, you would use `T-AI163-050`, make a note of this in noptepad for later reference ). This is crucial for uniquely identifying your project.
+> Before filling in the fields, note that you need to replace `<UserID>` with your assigned user number (e.g., if your user is `T-AI163-050`, you would use `T-AI163-050`, make a note of this in notepad for later reference ). This is crucial for uniquely identifying your project.
 
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
@@ -28,5 +27,5 @@
 
 ---
 
-➡️ [Next: Ex. 3.1.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
-- [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+➡️ [Next: Ex. 3.1.1 - Create a new Joule Skill](../ex3.1/ex3.1.1/ex3.1.1-create-get-delayed-skill.md)
+- [Back To Landing Page](../../README.md)

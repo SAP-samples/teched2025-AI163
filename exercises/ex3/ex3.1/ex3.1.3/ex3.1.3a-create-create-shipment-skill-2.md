@@ -1,4 +1,4 @@
-## Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs
+## Ex. 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs
 <br>
 
 ### 1. Mapping Skill Inputs
@@ -50,7 +50,7 @@ the button to expand the condition and view the condition branches. i.e. Branch 
 
 * Click on the Save button to save the Joule skill.
 
-# Summary — Exercise 3.1.3a: Mapping Input Variables of the Action Project with Joule Skill Inputs
+# Summary — Ex. 3.1.3a: Mapping Input Variables of the Action Project with Joule Skill Inputs
 
 This page explains how to **map input variables** of the Action project to the corresponding **Joule Skill inputs** for the “Create Shipment” skill created in the previous exercise.  
 It also covers how to set up a **conditional branch** within the skill to handle different scenarios based on whether a carrier ID is provided.
@@ -83,6 +83,6 @@ Finally, click **Save** to store the completed Joule Skill configuration.
 <br>
 <br>
 
-➡️ [Next Exercise - > Exercise 3.1.3b - Add Send Message steps in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
+➡️ [Next Exercise - > Ex. 3.1.3b - Add Send Message steps in Joule Skill](ex3.1.3b-create-create-shipment-skill-3.md)
 
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+<br> <br>  - [Back To Landing Page](../../README.md)
