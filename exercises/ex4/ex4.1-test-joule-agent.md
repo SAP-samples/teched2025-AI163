@@ -41,7 +41,7 @@
 Shipment ID: 61000<UserID>
 Source Location: SFO
 Destination Location: NYC
-Pick-up Date and Time: November 06, 2025 5:00:00 PM CET
+Pick-up Date and Time: November 07, 2025 5:00:00 PM CET
 ```
 
 
