@@ -49,7 +49,7 @@ This agent:
 - Makes autonomous decisions based on data and context.  
 - Communicates naturally with warehouse supervisors.  
 
-In short, this is where your **Agentic Warehouse Operations** scenario becomes fully functional.
+In short, this is where your **Logistics Agent** scenario becomes fully functional.
 
 ---
 
