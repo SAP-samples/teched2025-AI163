@@ -61,15 +61,21 @@ Pick-up Date and Time: November 07, 2025 5:00:00 PM CET
 
 <img width="458" height="276" alt="image" src="https://github.com/user-attachments/assets/dd4bb5d9-58a0-4c10-ae10-0eaa77b66dcd" />
 
+<br><br>
+<br>  5: :point_right: **Prompt**: 
+<br>```Update the Shipment ID: 71000<UserID> with the carrier DHL. All other values remain the same```
+<br>:full_moon: **Result**: Joule responds with the success message you created earlier for updating shipments.
+
+<img width="596" height="766" alt="image" src="https://github.com/user-attachments/assets/366050b8-30fa-40fe-8279-c868b42e326b" />
 
 
-<br>  5: :point_right: **Prompt**:
+<br>  6: :point_right: **Prompt**:
 <br> ```I would like to find all the delayed shipments```
 
 <br>:full_moon: **Result**: Joule responds with Display a list of shipments with Delayed status in the GTT system
 <img width="580" height="350" alt="image" src="https://github.com/user-attachments/assets/1ecae1c1-2d46-48ef-8a45-b2cc799a8367" />
 
-<br>  6: :point_right: **Prompt**:
+<br>  7: :point_right: **Prompt**:
 > [!NOTE]
 > Replace < UserID > with your User Id
 
