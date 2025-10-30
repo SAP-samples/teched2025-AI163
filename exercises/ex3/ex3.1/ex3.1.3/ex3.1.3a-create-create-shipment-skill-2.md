@@ -18,7 +18,7 @@
 | altKey                   | Apply Formula| ```ConcatenateStrings(["xri://sap.com/id:LBN#10010002478:EWWCLNT220:FT1_SHIPMENT:", <Skill Input>shipmentId>], ""```)|
 | arrivalLocationId        | Skill Inputs > destlocation | |
 | departureLocationId      | Skill Inputs > srclocation  | |
-| plannedArrivalDateTime   | Static  | ```2025-12-28T10:00:00Z``` |
+| plannedArrivalDateTime   | Static  | ```2025-12-26T16:30:00+02:00``` |
 | plannedDepartureDateTime | Apply Formula   | ```DateTimeFromISO(<Skill Input>datetime>)``` |
 | serviceAgentLbnId        | Skill Inputs > carrier      | |
 | shipmentNo               | Skill Inputs > shipmentid   | |
