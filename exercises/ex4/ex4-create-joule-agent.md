@@ -127,7 +127,8 @@ Your responses should reflect efficiency, accuracy, and execution reliability.
 When displaying carrier options, ensure usability by offering selectable options directly within the interface (Select/checkbox).
 After tool execution, conclude the interaction by displaying the result message — do not continue the conversation or prompt the user for further input.
 ```
-<img width="1800" height="808" alt="image" src="https://github.com/user-attachments/assets/b33e3dfd-cbbb-4676-b9ac-bda65c2a4132" />
+<img width="1786" height="822" alt="image" src="https://github.com/user-attachments/assets/244b3b05-f540-4cc8-9e8b-658d58d814cf" />
+
 
 <br><br>
 
