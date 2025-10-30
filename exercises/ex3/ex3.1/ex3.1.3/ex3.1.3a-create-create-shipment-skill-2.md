@@ -14,12 +14,12 @@
 
 | Field Name              | Mapped Path                 | Value |
 |--------------------------|-----------------------------|-----------|
-| actualBusinessTimestamp  | Apply Formula    | ```DateTimeFromISO(<Skill Input-datetime>)``` |
+| actualBusinessTimestamp  | Skill Input > datetime    |  |
 | altKey                   | Apply Formula| ```ConcatenateStrings(["xri://sap.com/id:LBN#10010002478:EWWCLNT220:FT1_SHIPMENT:", <Skill Input-shipmentId>], ""```)|
 | arrivalLocationId        | Skill Inputs > destlocation | |
 | departureLocationId      | Skill Inputs > srclocation  | |
-| plannedArrivalDateTime   | Static  | ```2025-12-26T16:30:00+02:00```  (December 26th, 2025 4:30:00 PM CET) |
-| plannedDepartureDateTime | Apply Formula   | ```DateTimeFromISO(<Skill Input-datetime>)``` |
+| plannedArrivalDateTime   | Static  | ```2025-12-20T16:30:00+02:00```  (December 20th, 2025 4:30:00 PM CET) |
+| plannedDepartureDateTime | Skill Input > datetime   |  |
 | serviceAgentLbnId        | Skill Inputs > carrier      | |
 | shipmentNo               | Skill Inputs > shipmentid   | |
 <br>
