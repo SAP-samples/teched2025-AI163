@@ -10,7 +10,7 @@ The GTTReadService Action project will be used by **two Joule Skills**:
 - `Track Shipment`: A Skill to track shipments using its Tracking ID.  
 - `Delayed Shipment`: A skill to get all delayed shipments using its Delay Status.
 
-The GTTShipment Action project is used by the **Joule Skill**: 
+The GTTShipmentPost Action project is used by the **Joule Skill**: 
 - `Create Shipment`: A skill to create shipment or update shipment with ONLY carrier name.
 
 <br>
