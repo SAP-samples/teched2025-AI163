@@ -1,27 +1,5 @@
 ## Ex. 4 - Create a Joule Agent :wrench:
 
-### Prerequisite: Create AI Core Destination Variable
-Before we build the agent, we must create a Destination Environment variable for AI Core. This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
-<br>
-1. Click the **Settings** icon in the top-right corner of the Joule Skill Package, as shown in the screenshot:
-<img width="1798" height="670" alt="image" src="https://github.com/user-attachments/assets/399ac844-ddcb-4fe4-9e45-9ae6628d5144" />
-
-* Click on **Environment Variables** and then the **Create** button.
-<img width="1783" height="798" alt="image" src="https://github.com/user-attachments/assets/989661f9-aea0-469f-9580-90a214749c47" />
-
-<br>Input the following values and click **Create**: 
-
-| Field         | Value                                     |
-|---------------|-------------------------------------------|
-| **Identifier**        | `AiCore`                  |
-| **Description** | `Destination for AI Core` |
-| **Type** | `Destination` |
-
-<img width="1781" height="799" alt="image" src="https://github.com/user-attachments/assets/5139c4b5-d540-4266-9c41-3e8b3071d400" />
-
-<br>
-
----
 ### 💡 Understanding Joule Agents
 
 **Joule Agents** represent the next evolution of enterprise automation — intelligent, autonomous systems that **plan, reason, and act** across multiple tools and systems to achieve complex goals.  
@@ -52,6 +30,29 @@ This agent:
 In short, this is where your **Logistics Agent** scenario becomes fully functional.
 
 ---
+### Prerequisite: Create AI Core Destination Variable
+Before we build the agent, we must create a Destination Environment variable for AI Core. This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
+<br>
+1. Click the **Settings** icon in the top-right corner of the Joule Skill Package, as shown in the screenshot:
+<img width="1798" height="670" alt="image" src="https://github.com/user-attachments/assets/399ac844-ddcb-4fe4-9e45-9ae6628d5144" />
+
+* Click on **Environment Variables** and then the **Create** button.
+<img width="1783" height="798" alt="image" src="https://github.com/user-attachments/assets/989661f9-aea0-469f-9580-90a214749c47" />
+
+<br>Input the following values and click **Create**: 
+
+| Field         | Value                                     |
+|---------------|-------------------------------------------|
+| **Identifier**        | `AiCore`                  |
+| **Description** | `Destination for AI Core` |
+| **Type** | `Destination` |
+
+<img width="1781" height="799" alt="image" src="https://github.com/user-attachments/assets/5139c4b5-d540-4266-9c41-3e8b3071d400" />
+
+<br>
+
+---
+
 
 ### Part 1: Create and Define the Agent
 
