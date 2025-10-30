@@ -36,11 +36,11 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 | **S.No** | **Name**       | **Identifier** | **Description**         | **Required** |
 |:--------:|----------------|----------------|--------------------------|---------------|
-| 1 | shipmentid     | shipmentid     | Shipment ID              | ✅ Checked|
-| 2 | srclocation    | srclocation    | Source Location          | ✅ Checked|
-| 3 | destlocation   | destlocation   | Destination Location     | ✅ Checked|
-| 4 | datetime       | datetime       | Pick up Date             | ✅ Checked|
-| 5 | carrier        | carrier        | carrierid                | ⬜ Unchecked|
+| 1 | ```shipmentid```     | shipmentid     | ```Shipment ID```              | ✅ Checked|
+| 2 | ```srclocation```    | srclocation    | ```Source Location```          | ✅ Checked|
+| 3 | ```destlocation```   | destlocation   | ```Destination Location```     | ✅ Checked|
+| 4 | ```datetime```       | datetime       | ```Pick up Date - Convert this into ISO 8601```             | ✅ Checked|
+| 5 | ```carrier```        | carrier        | ```carrierid```                | ⬜ Unchecked|
 
 * Once all inputs are added, click on ‘Apply’ button.
 <img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/59a23305-7c8a-4072-8df0-f8f1260d9f83" />
