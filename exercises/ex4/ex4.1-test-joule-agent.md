@@ -26,7 +26,7 @@
 <br><br>3. In the Joule Assistant, provide the below prompts to test:
 
 <br>  3.1.  :point_right: **Prompt**: 
-<br>```Could you please assist me in creating a Shipment ?```
+<br>```Hello Joule, Could you please assist me in creating a Shipment ?```
 <br> :full_moon: **Result**: Joule Requests shipment details: Shipment ID, Source Location, Destination Location, Pick up Date. 
 
 <img width="1785" height="811" alt="image" src="https://github.com/user-attachments/assets/84ee5c3b-1328-44c0-b17b-36182cec6a33" />
