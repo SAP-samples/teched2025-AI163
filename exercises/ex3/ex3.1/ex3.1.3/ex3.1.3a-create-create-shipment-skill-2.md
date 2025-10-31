@@ -24,28 +24,16 @@
 | serviceAgentLbnId        | Skill Inputs > carrier      | |
 | shipmentNo               | Skill Inputs > shipmentid   | |
 <br>
+
 ### 2. Mapping Skill Output
-<br>Select the Action in the Skill Builder and click on Inputs tab to map the skill inputs to action call inputs. 
-* Scroll through and locate the fields shown in the table below and click on the fields.
-* The skill content list will open on the left.
-* As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
-<img width="1788" height="886" alt="image" src="https://github.com/user-attachments/assets/f8d75b7b-cfbe-449d-8e82-90f663681e7c" />
+<br> Click on the <img width="273" height="66" alt="image" src="https://github.com/user-attachments/assets/eb3c6d12-a9b5-43dc-8c76-a8594861fc4b" /> End node in the skill builder and map the skill output as per the table below:
 
+| Field Name              | Mapped Path                 |
+|--------------------------|-----------------------------|
+| Created Shipment Id  | Skill Inputs > shipmentid    |
 
-> [!Note]
-  > - Replace the texts in between **<** **>** with the skill input in the expression editor as done in previous sections
+<img width="1792" height="719" alt="image" src="https://github.com/user-attachments/assets/11a607fc-2824-49d6-b42a-723e77c9c609" />
 
-
-| Field Name              | Mapped Path                 | Value |
-|--------------------------|-----------------------------|-----------|
-| actualBusinessTimestamp  | Skill Input > datetime    |  |
-| altKey                   | Apply Formula| ```ConcatenateStrings(["xri://sap.com/id:LBN#10020007892:EWWCLNT220:FT1_SHIPMENT:", <Skill Input-shipmentId>], ""```)|
-| arrivalLocationId        | Skill Inputs > destlocation | |
-| departureLocationId      | Skill Inputs > srclocation  | |
-| plannedArrivalDateTime   | Static  | ```2025-12-20T16:30:00+02:00```  (December 20th, 2025 4:30:00 PM CET) |
-| plannedDepartureDateTime | Skill Input > datetime   |  |
-| serviceAgentLbnId        | Skill Inputs > carrier      | |
-| shipmentNo               | Skill Inputs > shipmentid   | |
 <br>
 
 ### 3. Create A Condition Branch
