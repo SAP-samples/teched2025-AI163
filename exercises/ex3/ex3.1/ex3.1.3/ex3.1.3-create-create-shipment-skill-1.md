@@ -50,6 +50,7 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <img width="1781" height="697" alt="image" src="https://github.com/user-attachments/assets/a52ba80b-898d-435d-967f-59db16ae9191" />
 
 * Click on the 'Add Input' button and add the following Inputs with Description. 
+
 | **S.No** | **Name**       | **Identifier** | **Description**         | **Required** |
 |:--------:|----------------|----------------|--------------------------|---------------|
 | 1 | ```Created Shipment Id```     | createdShipmentId     | ```Created Shipment Id```              | ✅ Checked|
