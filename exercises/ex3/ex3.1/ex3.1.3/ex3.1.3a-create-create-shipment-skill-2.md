@@ -1,4 +1,4 @@
-## Ex. 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs
+## Ex. 3.1.3a - Mapping Input & Output variables of the Action project with Joule Skill Inputs
 <br>
 
 ### 1. Mapping Skill Inputs
