@@ -6,7 +6,8 @@
 * Scroll through and locate the fields shown in the table below and click on the fields.
 * The skill content list will open on the left.
 * As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
-<img width="1796" height="810" alt="image" src="https://github.com/user-attachments/assets/3f020e15-329a-4993-a0eb-40c90a2c26e3" />
+<img width="1788" height="886" alt="image" src="https://github.com/user-attachments/assets/f8d75b7b-cfbe-449d-8e82-90f663681e7c" />
+
 
 > [!Note]
   > - Replace the texts in between **<** **>** with the skill input in the expression editor as done in previous sections
