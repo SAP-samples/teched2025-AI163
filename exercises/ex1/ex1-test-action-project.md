@@ -44,7 +44,7 @@ Testing validates that:
 2.  For **Destination**, select `gttGetService` from the dropdown.
 3.  In the **requestId Filter** input field, enter the following string:
     ```
-    trackingId eq '6100005200'
+    trackingId eq '61000001223'
     ```
 4.  Click the **Test** button.
 
