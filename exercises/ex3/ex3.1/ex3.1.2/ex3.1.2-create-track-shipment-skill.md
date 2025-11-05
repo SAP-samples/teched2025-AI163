@@ -79,9 +79,9 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 <img width="1790" height="679" alt="image" src="https://github.com/user-attachments/assets/ad14784f-f1b7-4e04-9ff7-075224d5de99" />
 
 
-* Input the following formula in the Formula Editor and click on 'Apply'. Replace [Tracking ID] with the trackingID Input from the left pane by double clicking on it and click on 'Apply'.
+* Input the following formula in the Formula Editor and click on 'Apply'. Replace `<Tracking ID>` with the trackingID Input from the left pane by double clicking on it and click on 'Apply'.
 ```plaintext
-ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")
+ConcatenateStrings(["trackingId eq ", <Tracking ID>, ""], "'")
 ```
 <img width="1791" height="835" alt="image" src="https://github.com/user-attachments/assets/3bb0b34c-9e2c-4625-8199-32184c776661" />
 <br>
@@ -140,7 +140,7 @@ The exercise follows a similar approach to the previous skill and includes these
 - Reusing the existing **destination variable** (`GetFromGTT`) for system connectivity.  
 - Configuring a **filter formula** in the Formula Editor to retrieve shipment details based on the tracking ID:
   ```plaintext
-  ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")
+  ConcatenateStrings(["trackingId eq ", <Tracking ID>, ""], "'")
 - Defining multiple output parameters to return shipment details
 - Mapping the action outputs to these parameters, including the appropriate data paths for each field.
 
