@@ -14,7 +14,7 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
 | **Name**        | `Create Shipment <UserID>`                  |
-| **Description** | `A skill to create shipment or update shipment with ONLY carrier name.During update only carrier is required.` |
+| **Description** | `A skill to create shipment or update shipment with ONLY carrier name. During update only carrier is required.` |
 
 * Click on ‘Create’ button
 > [!Note]
