@@ -51,7 +51,7 @@
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
 | Title                   | `Carrier Updated`|
-| Text        | ```Shipment Id ${context.startEvent.shipmentid} updated successfully in GTT```  |
+| Text        | ```Carrier ${context.startEvent.carrier} has been updated for Shipment ${context.startEvent.shipmentid}```  |
 | Illustration      | Success Check Mark  |
 
 * In the **Action Button** section, click **Add Button** and enter the values from the table below:
