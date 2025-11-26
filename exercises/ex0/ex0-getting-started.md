@@ -3,7 +3,7 @@
 1.  **Get Credentials**: Your trainers will provide you with a unique Login ID and initial password.
 
 2.  **Access Tenant**: Use **CTRL+click** (on Windows/Linux) or **CMD+click** (on MacOS) on the tenant URL to open the SAP Build Lobby in a new tab:
-<br>**Note on the previous link:** We have removed the labs preview link. The tenant was available as part of a TechEd 2025 hands-on session and is no longer active.
+<br> <!-- **Note on the previous link:** We have removed the labs preview link. The tenant was available as part of a TechEd 2025 hands-on session and is no longer active. -->
 
 
 3.  **Login Success**: Once logged in, you will see the SAP Build Lobby.
