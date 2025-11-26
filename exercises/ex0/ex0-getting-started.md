@@ -7,8 +7,8 @@
 <br> <!-- **Note on the previous link:** We have removed the labs preview link. The tenant was available as part of a TechEd 2025 hands-on session and is no longer active. -->
 
  - User Name Format:<br>
-B-AI163-0<XX>@education.cloud.sap,  where <XX> stands for the ID in your assigned computer
-E.g., B-AI163-001<!-- -->@education.cloud.sap 
+`B-AI163-0<XX>@education.cloud.sap`,  where `<XX>` stands for the ID in your assigned computer
+E.g., `B-AI163-001<!-- -->@education.cloud.sap` 
 
 
 
