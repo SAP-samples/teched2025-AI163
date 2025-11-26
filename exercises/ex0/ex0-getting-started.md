@@ -4,12 +4,10 @@
 
 2.  **Access Tenant**: Use **CTRL+click** (on Windows/Linux) or **CMD+click** (on MacOS) on the tenant URL to open the SAP Build Lobby in a new tab:
  - [Tenant Login](https://ai-agent-beta-build-default-eu12-ai163.eu12.build.cloud.sap/lobby)
-<br> <!-- **Note on the previous link:** We have removed the labs preview link. The tenant was available as part of a TechEd 2025 hands-on session and is no longer active. -->
+<br <!-- **Note on the previous link:** We have removed the labs preview link. The tenant was available as part of a TechEd 2025 hands-on session and is no longer active. -->
 
- - User Name Format:<br>
-`B-AI163-0<XX>@education.cloud.sap`,  where `<XX>` stands for the ID in your assigned computer.
-<br>E.g. `B-AI163-001@education.cloud.sap` if your computer ID is '01'
-<br><br>Password: BLR1@teched2025
+
+
 
 3.  **Login Success**: Once logged in, you will see the SAP Build Lobby.
     <img width="1878" height="867" alt="image" src="https://github.com/user-attachments/assets/ccf8908a-9ce1-4716-a39c-7c5417a85545" />
