@@ -8,7 +8,7 @@
 
  - User Name Format:<br>
 `B-AI163-0<XX>@education.cloud.sap`,  where `<XX>` stands for the ID in your assigned computer.
-<br>E.g. `B-AI163-001@education.cloud.sap` 
+<br>E.g. `B-AI163-001@education.cloud.sap` if your computer ID is '01'
 
 
 
