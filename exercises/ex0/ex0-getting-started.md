@@ -9,6 +9,7 @@
  - User Name Format:
 B-AI163-0<XX>@education.cloud.sap,  where <XX> stands for the ID in your assigned computer
 E.g., B-AI163-001@education.cloud.sap 
+
 <img width="808" height="93" alt="image" src="https://github.com/user-attachments/assets/1cf59952-8ac1-4086-a3c7-18af9a3f4f4c" />
 
 
