@@ -63,7 +63,7 @@ Pick-up Date and Time: December 15, 2025 5:00:00 PM CET
 
 <br><br>
 <br>  5: :point_right: **Prompt**: 
-<br>```Update the Shipment ID: 81000<UserID> with the carrier DHL. All other values remain the same```
+<br>```Update the Shipment ID: 91001<UserID> with the carrier DHL. All other values remain the same```
 <br>:full_moon: **Result**: Joule responds with the success message you created earlier for updating shipments.
 
 <img width="596" height="766" alt="image" src="https://github.com/user-attachments/assets/366050b8-30fa-40fe-8279-c868b42e326b" />
@@ -79,7 +79,7 @@ Pick-up Date and Time: December 15, 2025 5:00:00 PM CET
 > [!NOTE]
 > Replace < UserID > with your User Id
 
-```I want to track the shipment 81000<UserID>```
+```I want to track the shipment 91001<UserID>```
 
 
 
