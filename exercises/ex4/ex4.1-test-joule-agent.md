@@ -35,7 +35,7 @@
 <br>  3.2:  Provide the requested inputs 
 <br>:point_right: **Prompt**:
 > [!NOTE]
-> Replace < UserID > with your UserID ex. 91001**001**, 91001**002** .... 91001**040**
+> Replace < UserID > with your UserID ex. 91001<span style="color:blue">**001**</span>, 91001**002** .... 91001**040**
 
 ```
 Shipment ID: 91001<UserID>
