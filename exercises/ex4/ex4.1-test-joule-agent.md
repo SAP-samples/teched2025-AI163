@@ -35,10 +35,10 @@
 <br>  3.2:  Provide the requested inputs 
 <br>:point_right: **Prompt**:
 > [!NOTE]
-> Replace < UserID > with your UserID
+> Replace < UserID > with your UserID ex. 91001001, 91001002....91001040
 
 ```
-Shipment ID: 81000<UserID>
+Shipment ID: 91001<UserID>
 Source Location: SFO
 Destination Location: NYC
 Pick-up Date and Time: November 26, 2025 5:00:00 PM CET
