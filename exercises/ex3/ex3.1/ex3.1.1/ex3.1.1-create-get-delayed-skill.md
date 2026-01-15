@@ -103,7 +103,7 @@ Finally, we will create an output parameter for the Joule Skill to hold the resu
 With the output parameter created, you can now map the result from the action call to it.
 
 *   Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the skill. The output mapping panel will appear on the right.
-*   In the **json** output field, map the action's result by selecting it from the left pane: `getReadquery > result`.
+*   In the **json** output field, map the action's result by selecting it from the left pane: `getReadquery > result > d > results`.
 <img width="1792" height="855" alt="image" src="https://github.com/user-attachments/assets/7255ee94-d4bb-422e-99d3-b71cdb0e0eff" />
 
 
