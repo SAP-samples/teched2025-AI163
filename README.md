@@ -19,7 +19,7 @@ This exercise shows how to build a simple custom Joule Agent in Joule Studio tha
 
 Before diving into the use case, let's take a moment to get acquainted with our business user. It's really important to understand the business user as thoroughly as possible before building your custom Joule Agent.
 
-Meet George, a Logistics Coordinator at a global manufacturing company. Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using SAP Business Networks Global Track and Trace — or GTT for short. His job is to ensure that every delivery — from raw materials to finished goods — reaches the customer on time and in full.
+Meet George, a Logistics Coordinator at a global manufacturing company. Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using <b>SAP Business Network for Logistics </b>Global Track and Trace — or GTT for short. His job is to ensure that every delivery — from raw materials to finished goods — reaches the customer on time and in full.
 
 #### Persona — Logistics Coordinator
 <img width="1147" height="645" alt="image" src="https://github.com/user-attachments/assets/701cee26-bc65-44f4-9fba-7613cfa873c5" />
